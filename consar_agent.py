@@ -57,13 +57,42 @@ class ConsarUpdateAgent:
         response = requests.get(BASE_URL)
         soup = BeautifulSoup(response.text, "lxml")
         text = soup.get_text()
-        match = re.search(r"PERIODO DISPONIBLE\s*[:\-]?\s*(\d{2}/\d{2}/\d{4})", text)
-        if not match:
-            raise ValueError("Could not find 'PERIODO DISPONIBLE' on the page.")
-        latest_str = match.group(1)
-        latest_date = datetime.strptime(latest_str, "%d/%m/%Y")
-        print(f"📅 CONSAR latest period: {latest_date.strftime('%B %Y')}")
-        return latest_date
+
+        # Try multiple patterns to find the publication date
+        patterns = [
+            r"PERIODO DISPONIBLE\s*[:\-]?\s*(\d{2}/\d{2}/\d{4})",
+            r"Fecha de Publicación de Estadísticas:\s*(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})",
+            r"(\d{2})/(\d{2})/(\d{4})"
+        ]
+
+        for pattern in patterns:
+            match = re.search(pattern, text, re.IGNORECASE)
+            if match:
+                if "Publicación" in pattern or r"de\s+(\w+)\s+de" in pattern:
+                    # Handle Spanish date format: "15 de octubre de 2025"
+                    day = match.group(1)
+                    month_name = match.group(2)
+                    year = match.group(3)
+
+                    # Spanish month names to numbers
+                    months = {
+                        'enero': 1, 'febrero': 2, 'marzo': 3, 'abril': 4,
+                        'mayo': 5, 'junio': 6, 'julio': 7, 'agosto': 8,
+                        'septiembre': 9, 'octubre': 10, 'noviembre': 11, 'diciembre': 12
+                    }
+                    month_num = months.get(month_name.lower())
+                    if month_num:
+                        latest_date = datetime(int(year), month_num, int(day))
+                        print(f"📅 CONSAR latest period: {latest_date.strftime('%B %Y')}")
+                        return latest_date
+                else:
+                    # Handle DD/MM/YYYY format
+                    latest_str = match.group(0)
+                    latest_date = datetime.strptime(latest_str, "%d/%m/%Y")
+                    print(f"📅 CONSAR latest period: {latest_date.strftime('%B %Y')}")
+                    return latest_date
+
+        raise ValueError("Could not find publication date on the page.")
 
     # --- Step 2: Check latest GitHub release
     def get_latest_github_release_date(self):
