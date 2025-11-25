@@ -193,7 +193,8 @@ class ConsarUpdateAgent:
                 ))
                 export_button.click()
                 print(f"   ✓ Export initiated for {fund_name}")
-                time.sleep(5)
+                # Wait 30 seconds to ensure download completes
+                time.sleep(30)
 
             except Exception as e:
                 print(f"   ❌ Error processing {fund_name}: {e}")
