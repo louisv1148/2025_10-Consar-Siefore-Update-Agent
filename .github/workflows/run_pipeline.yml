@@ -63,7 +63,7 @@ jobs:
           git config --global user.email "bot@consar-agent.com"
           
           # Add any new metadata or files in the agent repo
-          git add latest_run_metadata.json consar_latest_month.json consar_latest_month_enriched.json || true
+          git add latest_run_metadata.json consar_latest_month.json consar_latest_month_enriched.json approval_pending.json || true
           
           # Commit if there are changes
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update metadata and latest month data" && git push)
