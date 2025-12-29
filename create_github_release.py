@@ -75,6 +75,12 @@ def create_release_with_gh_cli(tag, title, body):
         "--repo", f"{REPO_OWNER}/{REPO_NAME}"
     ]
 
+    # Check if release exists first to be idempotent
+    check_cmd = ["gh", "release", "view", tag, "--repo", f"{REPO_OWNER}/{REPO_NAME}"]
+    if subprocess.run(check_cmd, capture_output=True).returncode == 0:
+        print(f"⚠️  Release {tag} already exists. Skipping creation.")
+        return True
+
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
 
@@ -95,7 +101,7 @@ def create_release_with_gh_cli(tag, title, body):
 
 
 def create_release_with_api(tag, title, body):
-    """Create release using GitHub API."""
+    """Create release using GitHub API. Returns release_id on success, None on failure."""
     import requests
 
     print("📦 Creating release with GitHub API...")
@@ -114,6 +120,14 @@ def create_release_with_api(tag, title, body):
         "Accept": "application/vnd.github+json"
     }
 
+    # Check if release already exists
+    check_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/releases/tags/{tag}"
+    check_response = requests.get(check_url, headers=headers, timeout=30)
+    if check_response.status_code == 200:
+        release_id = check_response.json().get("id")
+        print(f"⚠️  Release {tag} already exists. Using existing release.")
+        return release_id
+
     data = {
         "tag_name": tag,
         "name": title,
@@ -126,17 +140,74 @@ def create_release_with_api(tag, title, body):
         response = requests.post(url, json=data, headers=headers, timeout=30)
         response.raise_for_status()
 
-        release_url = response.json().get("html_url")
+        release_data = response.json()
+        release_url = release_data.get("html_url")
+        release_id = release_data.get("id")
         print(f"✅ Release created successfully!")
         print(f"   URL: {release_url}")
-        return True
+        return release_id
 
     except requests.exceptions.HTTPError as e:
         print(f"❌ HTTP Error: {e}")
         print(f"   Response: {response.text}")
-        return False
+        return None
     except Exception as e:
         print(f"❌ Error: {e}")
+        return None
+
+
+def upload_release_asset(release_id, file_path, asset_name=None):
+    """Upload a file as a release asset."""
+    import requests
+
+    if not release_id:
+        print("❌ Cannot upload asset: No valid release ID")
+        return False
+
+    if not os.path.exists(file_path):
+        print(f"❌ Cannot upload asset: File not found: {file_path}")
+        return False
+
+    if asset_name is None:
+        asset_name = os.path.basename(file_path)
+
+    file_size = os.path.getsize(file_path)
+    print(f"📤 Uploading asset: {asset_name} ({file_size / (1024*1024):.2f} MB)...")
+
+    # GitHub requires uploads go to uploads.github.com
+    upload_url = f"https://uploads.github.com/repos/{REPO_OWNER}/{REPO_NAME}/releases/{release_id}/assets?name={asset_name}"
+
+    headers = {
+        "Authorization": f"token {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json",
+        "Content-Type": "application/json"  # JSON file
+    }
+
+    try:
+        with open(file_path, "rb") as f:
+            response = requests.post(
+                upload_url,
+                headers=headers,
+                data=f,
+                timeout=300  # 5 min timeout for large files
+            )
+            response.raise_for_status()
+
+        download_url = response.json().get("browser_download_url")
+        print(f"✅ Asset uploaded successfully!")
+        print(f"   Download URL: {download_url}")
+        return True
+
+    except requests.exceptions.HTTPError as e:
+        # Check if asset already exists
+        if response.status_code == 422 and "already_exists" in response.text:
+            print(f"⚠️  Asset {asset_name} already exists on this release. Skipping upload.")
+            return True
+        print(f"❌ HTTP Error uploading asset: {e}")
+        print(f"   Response: {response.text}")
+        return False
+    except Exception as e:
+        print(f"❌ Error uploading asset: {e}")
         return False
 
 
@@ -207,10 +278,11 @@ Updated pension fund (AFORE) holdings data from CONSAR with FX enrichment.
 4. ✅ USD values calculated
 5. ✅ Integrated into historical database
 
-## 📁 Files
+## 📁 Download
 
-The complete database is available in this repository:
-- `consar_siefores_with_usd.json` - Full historical database with USD values
+**[📥 Download consar_siefores_with_usd.json](https://github.com/{REPO_OWNER}/{REPO_NAME}/releases/download/v{approval['period_year']}.{approval['period_month']}/consar_siefores_with_usd.json)** - Full historical database with USD values
+
+The complete database file is attached as a release asset above.
 
 ---
 
@@ -252,23 +324,31 @@ if __name__ == "__main__":
         print(f"   Tag: {tag}")
         print(f"   Records: {approval['new_records_added']:,}")
 
-        # Check for GitHub CLI
-        has_gh_cli = check_gh_cli()
+        # Create release (always use API to get release_id for asset upload)
+        print("\n📦 Creating GitHub Release...")
+        release_id = create_release_with_api(tag, title, body)
 
-        if has_gh_cli:
-            print("\n✅ GitHub CLI detected and authenticated")
-            success = create_release_with_gh_cli(tag, title, body)
-        else:
-            print("\n⚠️  GitHub CLI not available, using API")
-            success = create_release_with_api(tag, title, body)
-
-        if success:
+        if release_id:
             print("\n" + "=" * 70)
             print("RELEASE CREATED SUCCESSFULLY")
             print("=" * 70)
             print(f"\n✅ Tag: {tag}")
             print(f"✅ Title: {title}")
             print(f"✅ Records: {approval['new_records_added']:,} added")
+
+            # Upload the database file as release asset
+            print("\n📤 Uploading database file as release asset...")
+            asset_uploaded = upload_release_asset(
+                release_id, 
+                DATABASE_FILE, 
+                "consar_siefores_with_usd.json"
+            )
+
+            if asset_uploaded:
+                print("\n✅ Database file attached to release!")
+            else:
+                print("\n⚠️  Asset upload failed, but release was created.")
+
             print(f"\n🔗 View release at:")
             print(f"   https://github.com/{REPO_OWNER}/{REPO_NAME}/releases/tag/{tag}")
             print("\n" + "=" * 70)
