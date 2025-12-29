@@ -22,8 +22,13 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 # === CONFIG ===
-APPROVAL_FILE = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/approval_pending.json"
-DATABASE_FILE = "/Users/lvc/AI Scripts/2025_10 Afore JSON cleanup/consar_siefores_with_usd.json"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+APPROVAL_FILE = os.path.join(SCRIPT_DIR, "approval_pending.json")
+# Allow overriding database path via env var (for CI/CD)
+DATABASE_FILE = os.environ.get(
+    "MASTER_DB_PATH",
+    os.path.join(SCRIPT_DIR, "../2025_10 Afore JSON cleanup/consar_siefores_with_usd.json")
+)
 REPO_OWNER = "louisv1148"
 REPO_NAME = "2025_10-Afore-JSON-cleanup"
 

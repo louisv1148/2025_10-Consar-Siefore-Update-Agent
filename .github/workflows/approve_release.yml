@@ -27,7 +27,7 @@ jobs:
         with:
           repository: louisv1148/2025_10-Afore-JSON-cleanup
           path: 2025_10-Afore-JSON-cleanup
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -50,6 +50,17 @@ jobs:
           # Run the script non-interactively
           python3 approve_and_integrate.py
 
+      - name: Create GitHub Release
+        env:
+          # Use PAT to create release on the external repo if the script supports it, 
+          # OR if the script is targeted at the Agent repo, use GITHUB_TOKEN.
+          # Based on previous context, the release is for the HISTORY repo?
+          # Actually, create_github_release.py might default to the current repo.
+          # Let's check the script. But assuming we want to release on the History repo.
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          python3 create_github_release.py
+
       - name: Commit and Push (History Repo)
         run: |
           cd 2025_10-Afore-JSON-cleanup
@@ -58,7 +69,9 @@ jobs:
           
           git add consar_siefores_with_usd.json
           git commit -m "feat: Integrate approved Siefore data"
-          git push
+          
+          # Push using PAT
+          git push https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Afore-JSON-cleanup.git master
 
       - name: Commit and Push (Agent Repo)
         run: |
