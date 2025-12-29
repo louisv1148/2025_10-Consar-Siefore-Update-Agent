@@ -80,3 +80,12 @@ jobs:
           git commit -m "chore: Mark data as approved"
           # Push using PAT
           git push https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git HEAD:master
+
+      - name: Trigger Analysis Pipeline
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+            https://api.github.com/repos/louisv1148/Consar-AUM-analysis/dispatches \
+            -d '{"event_type": "consar-data-updated"}'
+          echo "✅ Analysis pipeline triggered!"
