@@ -3,8 +3,8 @@ name: Run Consar Pipeline
 
 on:
   schedule:
-    # Run at 8:00 AM UTC on the 5th and 20th of every month
-    - cron: '0 8 5,20 * *'
+    # Run at 8:00 AM UTC on the 15th and 20th of every month
+    - cron: '0 8 15,20 * *'
   workflow_dispatch:
 
 jobs:
