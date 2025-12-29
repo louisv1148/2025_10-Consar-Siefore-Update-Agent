@@ -19,11 +19,15 @@ import pandas as pd
 import json
 import os
 from datetime import datetime
+from dotenv import load_dotenv
 
 # === CONFIG ===
 SOURCE_JSON = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/consar_latest_month.json"
 OUTPUT_JSON = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/consar_latest_month_enriched.json"
 BANXICO_API_URL = "https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF43718/datos"
+
+# Load environment variables
+load_dotenv()
 BANXICO_TOKEN = os.environ.get("BANXICO_TOKEN")
 
 

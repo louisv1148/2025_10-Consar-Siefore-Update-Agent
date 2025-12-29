@@ -115,8 +115,24 @@ def parse_consar_xlsx(filepath, target_year, target_month):
     print(f"🔍 Parsing: {filename}")
     df = pd.read_excel(filepath, header=None)
 
-    # Map filename to Siefore name using the predefined mapping
-    siefore_name = FILENAME_TO_SIEFORE.get(filename, "Unknown")
+    # Determine Siefore Name from Header (Row 3, Column 2 -> index 2, 1)
+    try:
+        header_text = str(df.iloc[2, 1]).strip()
+        # Regex to capture name after "Siefore Básica "
+        match = re.search(r"Siefore Básica (.*)", header_text, re.IGNORECASE)
+        if match:
+            siefore_name = match.group(1).strip()
+            # Normalize specific names if needed to match historic data
+            if siefore_name == "Inicial":
+                siefore_name = "Basica Inicial"
+        else:
+            siefore_name = "Unknown"
+            print(f"   ⚠️  Could not extract Siefore name from header: '{header_text}'")
+    except Exception as e:
+        siefore_name = "Unknown"
+        print(f"   ⚠️  Error reading header: {e}")
+
+    print(f"   ✓ Identified Siefore: {siefore_name}")
 
     # Dates are on row 10 (index 9) when first row is 1
     periods = df.iloc[9, 4:].dropna().tolist()  # columns E onward
@@ -179,9 +195,19 @@ def parse_consar_xlsx(filepath, target_year, target_month):
 if __name__ == "__main__":
     print("🚀 Starting latest month data extraction...\n")
 
-    # Get the latest period from CONSAR
+    # Get the latest period from metadata (preferred) or CONSAR (fallback)
     try:
-        target_year, target_month = get_latest_period_from_consar()
+        metadata_file = "latest_run_metadata.json"
+        if os.path.exists(metadata_file):
+            with open(metadata_file, "r") as f:
+                meta = json.load(f)
+                target_year = meta["year"]
+                target_month = meta["month"]
+                print(f"📄 Loaded target period from metadata: {target_month}/{target_year}")
+        else:
+            print("⚠️  Metadata file not found, fetching from CONSAR...")
+            target_year, target_month = get_latest_period_from_consar()
+            
         month_name = MONTHS_NUM_TO_ES.get(target_month, target_month)
         print(f"📅 Target period: {month_name.upper()}-{target_year}\n")
     except Exception as e:

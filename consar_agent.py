@@ -144,6 +144,16 @@ class ConsarUpdateAgent:
     # --- Step 3: Compare dates
     def check_for_update(self):
         consar_date = self.get_latest_period_from_consar()
+        
+        # Save metadata for downstream scripts to reuse (avoid double scraping)
+        import json
+        metadata = {
+            "year": str(consar_date.year),
+            "month": f"{consar_date.month:02d}"
+        }
+        with open("latest_run_metadata.json", "w") as f:
+            json.dump(metadata, f)
+            
         github_date = self.get_latest_github_release_date()
         if consar_date > github_date:
             print("🟢 New data available on CONSAR!")
@@ -193,8 +203,27 @@ class ConsarUpdateAgent:
                 ))
                 export_button.click()
                 print(f"   ✓ Export initiated for {fund_name}")
-                # Wait 30 seconds to ensure download completes
-                time.sleep(30)
+                
+                # Smart Wait: Wait for .xls file to appear and stabilize
+                # Timeout after 120 seconds
+                wait_start = time.time()
+                download_success = False
+                
+                while time.time() - wait_start < 120:
+                    files = [f for f in os.listdir(DOWNLOAD_DIR) if f.endswith(".xls")]
+                    # We expect one new file. Check if any file is growing or recent.
+                    # Since we clean the dir before running, we can just check if count == idx
+                    if len(files) >= idx:
+                        # Found the new file, give it a moment to finish writing
+                        time.sleep(2) 
+                        download_success = True
+                        break
+                    time.sleep(1)
+                
+                if download_success:
+                    print(f"   ✅ Download completed")
+                else:
+                    print(f"   ⚠️  Timeout waiting for download for {fund_name}")
 
             except Exception as e:
                 print(f"   ❌ Error processing {fund_name}: {e}")
@@ -237,6 +266,12 @@ class ConsarUpdateAgent:
         try:
             if self.check_for_update():
                 print("⬇️ Starting report downloads...")
+                
+                # Cleanup: Delete existing files to ensure clean state
+                print("🧹 Cleaning download directory...")
+                for f in os.listdir(DOWNLOAD_DIR):
+                    os.remove(os.path.join(DOWNLOAD_DIR, f))
+                
                 self.download_reports()
                 print(f"\n✅ All reports downloaded to: {DOWNLOAD_DIR}")
                 self.convert_xls_to_xlsx()
