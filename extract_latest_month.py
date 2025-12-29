@@ -15,8 +15,10 @@ from bs4 import BeautifulSoup
 import requests
 
 # === CONFIG ===
-SOURCE_FOLDER = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/downloaded_files"
-OUTPUT_JSON = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/consar_latest_month.json"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+SOURCE_FOLDER = os.path.join(SCRIPT_DIR, "downloaded_files")
+OUTPUT_JSON = os.path.join(SCRIPT_DIR, "consar_latest_month.json")
+METADATA_FILE = os.path.join(SCRIPT_DIR, "latest_run_metadata.json")
 BASE_URL = "https://www.consar.gob.mx/gobmx/aplicativo/siset/Enlace.aspx?md=79"
 
 # Valid AFORE names to filter out junk rows
@@ -197,9 +199,8 @@ if __name__ == "__main__":
 
     # Get the latest period from metadata (preferred) or CONSAR (fallback)
     try:
-        metadata_file = "latest_run_metadata.json"
-        if os.path.exists(metadata_file):
-            with open(metadata_file, "r") as f:
+        if os.path.exists(METADATA_FILE):
+            with open(METADATA_FILE, "r") as f:
                 meta = json.load(f)
                 target_year = meta["year"]
                 target_month = meta["month"]

@@ -1,0 +1,69 @@
+
+name: Run Consar Pipeline
+
+on:
+  schedule:
+    # Run at 8:00 AM UTC on the 5th and 20th of every month
+    - cron: '0 8 5,20 * *'
+  workflow_dispatch:
+
+jobs:
+  update-siefores:
+    runs-on: ubuntu-latest
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      BANXICO_TOKEN: ${{ secrets.BANXICO_TOKEN }}
+      SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+      SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+      RECIPIENT_EMAILS: ${{ secrets.RECIPIENT_EMAILS }}
+
+    steps:
+      - name: Checkout Agent Repo
+        uses: actions/checkout@v3
+
+      - name: Checkout History Repo
+        uses: actions/checkout@v3
+        with:
+          repository: louisv1148/2025_10-Afore-JSON-cleanup
+          path: 2025_10-Afore-JSON-cleanup
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests beautifulsoup4 selenium openpyxl python-dotenv lxml
+
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Run Pipeline
+        run: |
+          # Set python path to current python
+          export PYTHONPATH=$PYTHONPATH:.
+          
+          # Set Master DB Path to the checked-out history repo
+          export MASTER_DB_PATH=$(pwd)/2025_10-Afore-JSON-cleanup/consar_siefores_with_usd.json
+          
+          echo "Using Master DB at: $MASTER_DB_PATH"
+          
+          # Run the pipeline
+          python3 run_complete_pipeline.py
+
+      - name: Commit and Push if Changed (Agent Repo)
+        run: |
+          git config --global user.name "Consar Bot"
+          git config --global user.email "bot@consar-agent.com"
+          
+          # Add any new metadata or files in the agent repo
+          git add latest_run_metadata.json consar_latest_month.json consar_latest_month_enriched.json || true
+          
+          # Commit if there are changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update metadata and latest month data" && git push)

@@ -21,9 +21,14 @@ from selenium.webdriver.support import expected_conditions as EC
 from dotenv import load_dotenv
 
 # === CONFIGURATION ===
+# === CONFIGURATION ===
 BASE_URL = "https://www.consar.gob.mx/gobmx/aplicativo/siset/Enlace.aspx?md=79"
 GITHUB_RELEASES_API = "https://api.github.com/repos/louisv1148/2025_10-Afore-JSON-cleanup/releases"
-DOWNLOAD_DIR = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/downloaded_files"
+
+# Use path relative to this script
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DOWNLOAD_DIR = os.path.join(SCRIPT_DIR, "downloaded_files")
+METADATA_FILE = os.path.join(SCRIPT_DIR, "latest_run_metadata.json")
 
 # Fund configurations with specific checkbox IDs
 URL_CONFIGS = {
@@ -151,7 +156,7 @@ class ConsarUpdateAgent:
             "year": str(consar_date.year),
             "month": f"{consar_date.month:02d}"
         }
-        with open("latest_run_metadata.json", "w") as f:
+        with open(METADATA_FILE, "w") as f:
             json.dump(metadata, f)
             
         github_date = self.get_latest_github_release_date()

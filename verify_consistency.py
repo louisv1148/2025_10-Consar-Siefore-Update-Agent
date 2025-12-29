@@ -2,10 +2,13 @@
 import json
 import pandas as pd
 import sys
+import os
 
 # Paths
-LATEST_FILE = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/consar_latest_month_enriched.json"
-MASTER_FILE = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/consar_siefores_with_usd_updated.json"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+LATEST_FILE = os.path.join(SCRIPT_DIR, "consar_latest_month_enriched.json")
+# Default to master file in the same directory, or override via env var
+MASTER_FILE = os.environ.get("MASTER_DB_PATH", os.path.join(SCRIPT_DIR, "consar_siefores_with_usd_updated.json"))
 
 def load_json(path):
     with open(path, 'r', encoding='utf-8') as f:
