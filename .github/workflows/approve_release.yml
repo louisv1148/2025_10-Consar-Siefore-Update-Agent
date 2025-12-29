@@ -67,7 +67,7 @@ jobs:
           git commit -m "feat: Integrate approved Siefore data"
           
           # Push using PAT
-          git push https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Afore-JSON-cleanup.git master
+          git push https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Afore-JSON-cleanup.git HEAD:main
 
       - name: Commit and Push (Agent Repo)
         run: |
