@@ -87,6 +87,29 @@ def backup_historical_db():
     return backup_path
 
 
+def fix_units(data):
+    """
+    Fix units to match historical database format.
+    
+    The enriched data comes in actual pesos, but the historical database
+    stores values in thousands of pesos. Multiply by 1000 to match.
+    
+    Args:
+        data: List of records with valueMXN and valueUSD in actual pesos
+    
+    Returns:
+        List of records with values multiplied by 1000
+    """
+    print(f"   🔧 Converting units (multiplying by 1000 to match historical format)...")
+    
+    for record in data:
+        record['valueMXN'] = record['valueMXN'] * 1000
+        record['valueUSD'] = record['valueUSD'] * 1000
+    
+    print(f"   ✅ Units converted for {len(data):,} records")
+    return data
+
+
 def integrate_data():
     """Integrate new data into historical database."""
     print("\n📊 Integrating data...")
@@ -96,6 +119,9 @@ def integrate_data():
         new_data = json.load(f)
 
     print(f"   Loaded {len(new_data):,} new records")
+
+    # Fix units to match historical database format
+    new_data = fix_units(new_data)
 
     # Load historical data or create empty list
     if os.path.exists(HISTORICAL_DB):
