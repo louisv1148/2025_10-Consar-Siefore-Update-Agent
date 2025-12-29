@@ -52,13 +52,9 @@ jobs:
 
       - name: Create GitHub Release
         env:
-          # Use PAT to create release on the external repo if the script supports it, 
-          # OR if the script is targeted at the Agent repo, use GITHUB_TOKEN.
-          # Based on previous context, the release is for the HISTORY repo?
-          # Actually, create_github_release.py might default to the current repo.
-          # Let's check the script. But assuming we want to release on the History repo.
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
+          export MASTER_DB_PATH=$(pwd)/2025_10-Afore-JSON-cleanup/consar_siefores_with_usd.json
           python3 create_github_release.py
 
       - name: Commit and Push (History Repo)
