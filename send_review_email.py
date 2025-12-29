@@ -196,18 +196,22 @@ def create_email_body(stats):
         <div class="approval">
             <h2>✅ Approval Required</h2>
             <p>To approve this data for integration into the historical database:</p>
+            
+            <h3>Option 1: One-Click Release (Recommended)</h3>
             <ol>
-                <li><strong>Review</strong> the statistics and sample data above</li>
-                <li><strong>Run the approval script:</strong></li>
+                <li>Go to the <strong><a href="https://github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent/actions/workflows/approve_release.yml">Approve Latest Data</a></strong> workflow on GitHub.</li>
+                <li>Click <strong>Run workflow</strong> (blue button).</li>
+                <li>Ensure branch is <strong>master</strong>.</li>
+                <li>Click <strong>Run workflow</strong>.</li>
             </ol>
+            
+            <h3>Option 2: Manual CLI</h3>
             <pre style="background: #f5f5f5; padding: 10px; border-radius: 3px;">
 cd "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent"
 python3 approve_and_integrate.py
             </pre>
-            <p>Or <strong>reject</strong> by running:</p>
-            <pre style="background: #f5f5f5; padding: 10px; border-radius: 3px;">
-python3 reject_data.py
-            </pre>
+            
+            <p><strong>Note:</strong> Approval will automatically backup the database, integrate new records, and create a GitHub Release (v{stats['period_year']}.{stats['period_month']}).</p>
         </div>
 
         <div class="footer">

@@ -17,10 +17,16 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 # === CONFIG ===
-APPROVAL_FILE = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/approval_pending.json"
-ENRICHED_JSON = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/consar_latest_month_enriched.json"
-HISTORICAL_DB = "/Users/lvc/AI Scripts/2025_10 Afore JSON cleanup/consar_siefores_with_usd.json"
-BACKUP_DIR = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/backups"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+APPROVAL_FILE = os.path.join(SCRIPT_DIR, "approval_pending.json")
+BACKUP_DIR = os.path.join(SCRIPT_DIR, "backups")
+
+# If running manually, we default to local path.
+# If running in CI via approve_release.yml, we must provide MASTER_DB_PATH env var.
+HISTORICAL_DB = os.environ.get(
+    "MASTER_DB_PATH", 
+    os.path.join(SCRIPT_DIR, "../2025_10 Afore JSON cleanup/consar_siefores_with_usd.json")
+)
 
 load_dotenv()
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
