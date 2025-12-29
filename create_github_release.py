@@ -155,7 +155,12 @@ def generate_release_notes(approval):
     file_size_mb = os.path.getsize(DATABASE_FILE) / (1024 * 1024)
 
     # Load enriched data for statistics
-    with open(approval["enriched_file"], "r") as f:
+    # Note: approval['enriched_file'] might contain an absolute path from a different machine.
+    # We always expect the enriched file to be in the same directory as this script in the CI env.
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    enriched_json_path = os.path.join(script_dir, "consar_latest_month_enriched.json")
+    
+    with open(enriched_json_path, "r") as f:
         enriched_data = json.load(f)
 
     total_mxn = sum(r.get("valueMXN", 0) for r in enriched_data)
