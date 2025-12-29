@@ -103,6 +103,38 @@ def clean_value(val):
     except:
         return 0.0
 
+def detect_units(df):
+    """
+    Detect the units used in the CONSAR Excel file.
+    
+    CONSAR specifies units in Row 7 (index 6), typically "Miles de Pesos" (thousands of pesos).
+    
+    Returns:
+        str: The units string (e.g., "Miles de Pesos")
+    """
+    try:
+        # Row 7 (index 6) contains "Unidad: Miles de Pesos"
+        units_cell = str(df.iloc[6, 2]).strip()  # Column C (index 2)
+        
+        print(f"   📏 Detected units: {units_cell}")
+        
+        # Verify it's the expected format
+        if "Miles de Pesos" in units_cell or "miles de pesos" in units_cell.lower():
+            print(f"   ✅ Units confirmed: Thousands of Pesos (Miles de Pesos)")
+            return "Miles de Pesos"
+        elif "Millones" in units_cell or "millones" in units_cell.lower():
+            print(f"   ⚠️  WARNING: Units are in MILLIONS, not thousands!")
+            return "Millones de Pesos"
+        elif "Pesos" in units_cell:
+            print(f"   ⚠️  WARNING: Units appear to be in actual PESOS, not thousands!")
+            return "Pesos"
+        else:
+            print(f"   ⚠️  WARNING: Unknown units format: {units_cell}")
+            return "Unknown"
+    except Exception as e:
+        print(f"   ⚠️  Could not detect units: {e}")
+        return "Unknown"
+
 
 def parse_consar_xlsx(filepath, target_year, target_month):
     """
@@ -116,6 +148,12 @@ def parse_consar_xlsx(filepath, target_year, target_month):
     filename = os.path.basename(filepath)
     print(f"🔍 Parsing: {filename}")
     df = pd.read_excel(filepath, header=None)
+
+    # Detect and verify units
+    units = detect_units(df)
+    if units not in ["Miles de Pesos"]:
+        print(f"   ⚠️  CRITICAL: Expected 'Miles de Pesos' but got '{units}'")
+        print(f"   ⚠️  Data may need different conversion factor!")
 
     # Determine Siefore Name from Header (Row 3, Column 2 -> index 2, 1)
     try:
