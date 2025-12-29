@@ -35,27 +35,47 @@ if not prior_data:
 df_latest = pd.DataFrame(latest_data)
 df_prior = pd.DataFrame(prior_data)
 
+# Report Data
+report = {
+    "status": "pass",
+    "checks": []
+}
+
 # --- Check 1: Record Counts ---
 print("\n--- 1. Record Count Consistency ---")
+count_check = {
+    "name": "Record Count",
+    "latest": len(latest_data),
+    "prior": len(prior_data),
+    "status": "pass" if len(latest_data) == len(prior_data) else "fail"
+}
 if len(latest_data) == len(prior_data):
     print(f"✅ Record counts match: {len(latest_data)}")
 else:
     print(f"⚠️  Mismatch: Nov={len(latest_data)} vs Oct={len(prior_data)}")
+report["checks"].append(count_check)
 
-# --- Check 2: Afore/Siefore Completeness ---
+# --- Check 2: Entity Completeness ---
 print("\n--- 2. Entity Completeness ---")
 def check_set_diff(name, set_latest, set_prior):
     missing = set_prior - set_latest
     new = set_latest - set_prior
-    if not missing and not new:
-        print(f"✅ {name} match perfectly.")
-    else:
+    status = "pass"
+    msg = f"{name} match perfectly"
+    
+    if missing or new:
+        status = "warn"
+        msg = f"Missing: {len(missing)}, New: {len(new)}"
         if missing: print(f"⚠️  Missing {name} in Nov: {missing}")
         if new: print(f"ℹ️  New {name} in Nov: {new}")
+    else:
+        print(f"✅ {name} match perfectly.")
+        
+    return {"name": f"{name} Integrity", "status": status, "message": msg}
 
-check_set_diff("Afores", set(df_latest["Afore"]), set(df_prior["Afore"]))
-check_set_diff("Siefores", set(df_latest["Siefore"]), set(df_prior["Siefore"]))
-check_set_diff("Concepts", set(df_latest["Concept"]), set(df_prior["Concept"]))
+report["checks"].append(check_set_diff("Afores", set(df_latest["Afore"]), set(df_prior["Afore"])))
+report["checks"].append(check_set_diff("Siefores", set(df_latest["Siefore"]), set(df_prior["Siefore"])))
+report["checks"].append(check_set_diff("Concepts", set(df_latest["Concept"]), set(df_prior["Concept"])))
 
 # --- Check 3: Order of Magnitude (Total Assets) ---
 print("\n--- 3. Total Assets Comparison (USD) ---")
@@ -64,18 +84,33 @@ total_concept = "Total de Activo"
 latest_assets = df_latest[df_latest["Concept"] == total_concept]["valueUSD"].sum()
 prior_assets = df_prior[df_prior["Concept"] == total_concept]["valueUSD"].sum()
 
-print(f"Oct 2025 (Prior): ${prior_assets:,.2f}")
-print(f"Nov 2025 (Latest): ${latest_assets:,.2f}")
-
 diff = latest_assets - prior_assets
 pct_change = (diff / prior_assets) * 100 if prior_assets else 0
 
+print(f"Oct (Prior): ${prior_assets:,.2f}")
+print(f"Nov (Latest): ${latest_assets:,.2f}")
 print(f"Change: ${diff:,.2f} ({pct_change:+.2f}%)")
 
+asset_status = "pass"
 if abs(pct_change) > 10:
     print("⚠️  Warning: Large variance (>10%) in Total Assets.")
+    asset_status = "warn"
 else:
     print("✅ Order of magnitude is consistent (variance < 10%).")
+
+report["checks"].append({
+    "name": "Total Assets (USD)",
+    "prior": prior_assets,
+    "latest": latest_assets,
+    "change_pct": pct_change,
+    "status": asset_status
+})
+
+# Save Report
+report_path = os.path.join(SCRIPT_DIR, "consistency_report.json")
+with open(report_path, "w") as f:
+    json.dump(report, f, indent=2)
+print(f"\n📝 Report saved to {report_path}")
 
 # --- Check 4: Detailed Breakdown by Afore ---
 print("\n--- 4. Afore Asset Breakdown (USD Millions) ---")

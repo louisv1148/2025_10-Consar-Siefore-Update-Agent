@@ -19,8 +19,10 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 
 # === CONFIG ===
-ENRICHED_JSON = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/consar_latest_month_enriched.json"
-APPROVAL_FILE = "/Users/lvc/AI Scripts/2025_10 Consar Siefore Update Agent/approval_pending.json"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+ENRICHED_JSON = os.path.join(SCRIPT_DIR, "consar_latest_month_enriched.json")
+APPROVAL_FILE = os.path.join(SCRIPT_DIR, "approval_pending.json")
+REPORT_JSON = os.path.join(SCRIPT_DIR, "consistency_report.json")
 
 # Email configuration (from environment variables)
 SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
@@ -56,9 +58,36 @@ def load_enriched_data():
     # Non-zero records
     nonzero_records = [r for r in data if r.get("valueMXN", 0) > 0]
 
+    # Load consistency report if available
+    consistency_html = "<p>No report found.</p>"
+    if os.path.exists(REPORT_JSON):
+        try:
+            with open(REPORT_JSON, "r") as f:
+                report = json.load(f)
+            
+            rows = ""
+            for check in report.get("checks", []):
+                status_icon = "✅" if check["status"] == "pass" else "⚠️" if check["status"] == "warn" else "❌"
+                
+                # Format specific details based on check type
+                details = ""
+                if "change_pct" in check:
+                    details = f"{check['change_pct']:+.2f}% (Prior: ${check['prior']:,.0f})"
+                elif "latest" in check and "prior" in check:
+                    details = f"{check['latest']} vs {check['prior']}"
+                elif "message" in check:
+                    details = check["message"]
+                
+                rows += f"<tr><td>{status_icon} {check['name']}</td><td>{details}</td></tr>"
+            
+            consistency_html = f"<table><tr><th>Check</th><th>Result</th></tr>{rows}</table>"
+        except Exception as e:
+            consistency_html = f"<p>Error loading report: {e}</p>"
+
     return {
         "period_year": period_year,
         "period_month": period_month,
+        "consistency_html": consistency_html,
         "fx_rate": fx_rate,
         "total_records": total_records,
         "total_mxn": total_mxn,
@@ -127,10 +156,13 @@ def create_email_body(stats):
             <div class="stats">
                 <p><strong>Afores ({len(stats['afores'])}):</strong> {', '.join(stats['afores'])}</p>
                 <p><strong>Siefores ({len(stats['siefores'])}):</strong> {', '.join(stats['siefores'])}</p>
-                <p><strong>Concepts ({len(stats['concepts'])}):</strong></p>
-                <ul>
-                    {''.join(f'<li>{c}</li>' for c in stats['concepts'])}
-                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>⚖️ Consistency Check (vs Prior Month)</h2>
+            <div class="stats">
+                {stats.get('consistency_html', '<p>No consistency report available.</p>')}
             </div>
         </div>
 
