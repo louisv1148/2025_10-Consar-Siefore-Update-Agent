@@ -19,8 +19,15 @@ from dotenv import load_dotenv
 # === CONFIG ===
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 APPROVAL_FILE = os.path.join(SCRIPT_DIR, "approval_pending.json")
+ENRICHED_JSON = os.path.join(SCRIPT_DIR, "consar_latest_month_enriched.json")
 BACKUP_DIR = os.path.join(SCRIPT_DIR, "backups")
 
+# If running manually, we default to local path.
+# If running in CI via approve_release.yml, we must provide MASTER_DB_PATH env var.
+HISTORICAL_DB = os.environ.get(
+    "MASTER_DB_PATH", 
+    os.path.join(SCRIPT_DIR, "../2025_10 Afore JSON cleanup/consar_siefores_with_usd.json")
+)
 # If running manually, we default to local path.
 # If running in CI via approve_release.yml, we must provide MASTER_DB_PATH env var.
 HISTORICAL_DB = os.environ.get(
