@@ -1,3611 +1,11 @@
 [
   {
     "Afore": "Azteca",
-    "Siefore": "Pensiones",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5537701.95123,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "Pensiones",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 14281802.88857,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "Pensiones",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3973758.57251,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "Pensiones",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5136149.10151,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "Pensiones",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3594583.23263,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "Pensiones",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 56002265.4162,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "Pensiones",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 7973536.99358,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "Pensiones",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 24845480.15281,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "Pensiones",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 13784775.05779,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "Pensiones",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 31319202.02504,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "Pensiones",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "Pensiones",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "Pensiones",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "Pensiones",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "Pensiones",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "Pensiones",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "Pensiones",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "Pensiones",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "Pensiones",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "Pensiones",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.54046,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 43129.79117,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 160074.31685,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 27463.89423,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5.1391,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 817035.50457,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 61261.40982,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "Pensiones",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "80-84",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 55577355.24156,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "80-84",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 211392618.08057,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "80-84",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 94894642.51891,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "80-84",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 19128767.97826,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "80-84",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 44170378.02937,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "80-84",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 79121243.39916,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "80-84",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 36060026.45731,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "80-84",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 172273536.54339,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "80-84",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 186169572.22805,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "80-84",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 153132019.43605,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "80-84",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "80-84",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "80-84",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "80-84",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "80-84",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "80-84",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 747843.54679,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "80-84",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "80-84",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "80-84",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "80-84",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 4888151.95511,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "80-84",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 4550594.83598,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "80-84",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 16432516.64686,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "80-84",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 11442066.14419,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "80-84",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 337513.25254,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "80-84",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3705808.28005,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "80-84",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6623400.4456,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "80-84",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 2704817.68249,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "80-84",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 10984566.80808,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "80-84",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 16178931.88144,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "80-84",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 16543290.39827,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "80-84",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1973808.66783,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "80-84",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "80-84",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1515162.40587,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "80-84",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "80-84",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "80-84",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "80-84",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "80-84",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 2180646.4688,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "80-84",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5669795.69802,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "80-84",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 796835.908,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "90-94",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 44278724.29546,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "90-94",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 66216156.12279,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "90-94",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 86615496.40892,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "90-94",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6843332.65997,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "90-94",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 7108937.73565,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "90-94",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 18994915.67063,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "90-94",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 4107619.8813,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "90-94",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 72308499.93636,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "90-94",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 47549875.72868,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "90-94",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 18357954.44509,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "90-94",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "90-94",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "90-94",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "90-94",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "90-94",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "90-94",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "90-94",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "90-94",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "90-94",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "90-94",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "90-94",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3136605.78276,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "90-94",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5244362.37928,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "90-94",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6054514.1855,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "90-94",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 29702.98326,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "90-94",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 410888.0634,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "90-94",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 969709.9008,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "90-94",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 169237.63216,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "90-94",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1910853.51439,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "90-94",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3598681.99122,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "90-94",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1576736.66394,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "90-94",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1054916.87164,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "90-94",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "90-94",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1555934.29799,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "90-94",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "90-94",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "90-94",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "90-94",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "90-94",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 727114.88779,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "90-94",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1387633.28263,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "90-94",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 91911.44623,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "70-74",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 46000603.81043,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "70-74",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 197850158.49566,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "70-74",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 60576320.40095,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "70-74",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 42219026.05018,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "70-74",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 62272943.86826,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "70-74",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 70736820.58735,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "70-74",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 99740129.63932,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "70-74",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 286920046.78997,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "70-74",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 245013986.9705,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "70-74",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 270594877.21513,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "70-74",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "70-74",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "70-74",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "70-74",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "70-74",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "70-74",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 568227.62971,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "70-74",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "70-74",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "70-74",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "70-74",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5524770.48857,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "70-74",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3378078.07077,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "70-74",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 10523528.95169,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "70-74",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 8022501.69753,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "70-74",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1004319.44494,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "70-74",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5465206.43731,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "70-74",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5887058.09753,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "70-74",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 7273734.58055,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "70-74",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 15548751.03455,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "70-74",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 18925692.06822,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "70-74",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 27039833.18459,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "70-74",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1950696.88315,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "70-74",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "70-74",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 895466.70503,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "70-74",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "70-74",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "70-74",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "70-74",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "70-74",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3370743.54375,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "70-74",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5983619.51133,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "70-74",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 983405.13601,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "60-64",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 10098759.01727,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "60-64",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 42198572.82572,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "60-64",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 12260565.25909,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "60-64",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 12389449.22312,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "60-64",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 12289906.70863,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "60-64",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 44558018.77158,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "60-64",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 23089687.82986,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "60-64",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 62295294.1862,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "60-64",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 55568810.1989,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "60-64",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 71138327.95063,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "60-64",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "60-64",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "60-64",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "60-64",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "60-64",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "60-64",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 272219.683,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "60-64",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "60-64",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "60-64",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "60-64",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 116016.90122,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "60-64",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 58188.91961,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "60-64",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1993469.89907,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "60-64",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 701059.98412,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "60-64",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 7.77357,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "60-64",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 929907.89366,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "60-64",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3114565.82195,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "60-64",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 2226545.38698,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "60-64",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1690413.21828,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "60-64",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3886763.70017,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "60-64",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6746470.62119,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "60-64",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 497013.66288,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "60-64",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "60-64",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 118900.53522,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "60-64",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "60-64",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "60-64",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "60-64",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "60-64",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 630812.75528,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "60-64",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 903589.73027,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "60-64",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 94961.12695,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "85-89",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 54847899.86101,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "85-89",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 153229028.71894,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "85-89",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 107275903.7543,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "85-89",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 11904386.41703,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "85-89",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 23453564.3707,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "85-89",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 50955763.87961,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "85-89",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 14035149.25344,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "85-89",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 121354788.35206,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "85-89",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 123648965.40693,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "85-89",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 64534248.75036,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "85-89",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "85-89",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "85-89",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "85-89",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "85-89",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "85-89",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 547496.78477,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "85-89",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "85-89",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "85-89",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "85-89",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 2603961.15865,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "85-89",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 4346714.2637,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "85-89",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 12215260.3588,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "85-89",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 11718240.81652,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "85-89",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 143139.98835,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "85-89",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1851237.41497,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "85-89",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3775231.7093,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "85-89",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 890944.33664,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "85-89",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6966253.94614,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "85-89",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 10554062.45319,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "85-89",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6513061.31291,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "85-89",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1774803.01041,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "85-89",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "85-89",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1704042.45512,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "85-89",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "85-89",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "85-89",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "85-89",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "85-89",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1433769.10362,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "85-89",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3746805.42057,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "85-89",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 350307.24442,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "75-79",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 56200941.56842,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "75-79",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 232418397.92869,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "75-79",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 81073559.90291,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "75-79",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 27221322.80345,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "75-79",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 61216125.28479,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "75-79",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 78172305.37883,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "75-79",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 69194449.32125,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "75-79",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 262697171.33396,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "75-79",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 221867976.29567,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "75-79",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 227883558.41476,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "75-79",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "75-79",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "75-79",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "75-79",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "75-79",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "75-79",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 685204.30985,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "75-79",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "75-79",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "75-79",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "75-79",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6377253.96321,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "75-79",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 4832096.91184,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "75-79",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 16454335.80536,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "75-79",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 10029957.69248,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "75-79",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 618623.96536,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "75-79",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5538736.88534,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "75-79",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 7005098.03996,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "75-79",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5758392.27622,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "75-79",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 19350523.25323,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "75-79",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 20232408.19475,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "75-79",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 25927632.68199,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "75-79",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 2199503.67412,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "75-79",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "75-79",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1268046.55303,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "75-79",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "75-79",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "75-79",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "75-79",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "75-79",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3507646.09987,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "75-79",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6520955.76873,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "75-79",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1124460.52443,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "65-69",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 30910996.96531,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "65-69",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 139750510.19393,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "65-69",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 41480180.36074,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "65-69",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 40721126.31646,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "65-69",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 45966593.33188,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "65-69",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 73963487.86488,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "65-69",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 84092949.21474,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "65-69",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 206311476.91552,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "65-69",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 190024414.88305,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "65-69",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 233298697.89976,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "65-69",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "65-69",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "65-69",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "65-69",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "65-69",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "65-69",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 619510.43054,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "65-69",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "65-69",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "65-69",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "65-69",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3666973.31916,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "65-69",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1861461.64069,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "65-69",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3777554.51897,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "65-69",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 4697027.47499,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "65-69",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 649967.30112,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "65-69",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 2236386.60225,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "65-69",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 4792968.23877,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "65-69",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5166280.59812,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "65-69",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6140567.6226,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "65-69",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 14331520.95864,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "65-69",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 21145017.34281,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "65-69",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1349390.85045,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "65-69",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "65-69",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 565728.42002,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "65-69",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "65-69",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "65-69",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "65-69",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "65-69",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 2123778.78409,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "65-69",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3811997.84719,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "65-69",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 650036.74449,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "95-99",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 44278724.29546,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "95-99",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 66216156.12279,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "95-99",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 86615496.40892,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "95-99",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6843332.65997,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "95-99",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 7108937.73565,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "95-99",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 18994915.67063,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "95-99",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 4107619.8813,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "95-99",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 72308499.93636,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "95-99",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 47549875.72868,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "95-99",
-    "Concept": "Total de Activo",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 18357954.44509,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "95-99",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "95-99",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "95-99",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "95-99",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "95-99",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "95-99",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "95-99",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "95-99",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "95-99",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "95-99",
-    "Concept": "Inversiones Tercerizadas",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "95-99",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3136605.78276,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "95-99",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5244362.37928,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "95-99",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6054514.1855,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "95-99",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 29702.98326,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "95-99",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 410888.0634,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "95-99",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 969709.9008,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "95-99",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 169237.63216,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "95-99",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1910853.51439,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "95-99",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 3598681.99122,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "95-99",
-    "Concept": "Inversión en títulos Fiduciarios",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1576736.66394,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
-    "Siefore": "95-99",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1054916.87164,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Banamex",
-    "Siefore": "95-99",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Coppel",
-    "Siefore": "95-99",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1555934.29799,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Inbursa",
-    "Siefore": "95-99",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Invercap",
-    "Siefore": "95-99",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "PensionISSSTE",
-    "Siefore": "95-99",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Principal",
-    "Siefore": "95-99",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 0.0,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Profuturo",
-    "Siefore": "95-99",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 727114.88779,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "SURA",
-    "Siefore": "95-99",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1387633.28263,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "XXI Banorte",
-    "Siefore": "95-99",
-    "Concept": "Inversión en Fondos Mutuos",
-    "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 91911.44623,
-    "FX_EOM": "",
-    "valueUSD": ""
-  },
-  {
-    "Afore": "Azteca",
     "Siefore": "Basica Inicial",
     "Concept": "Total de Activo",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 18830862.35193,
+    "PeriodMonth": "12",
+    "valueMXN": 19966987.64221,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3614,8 +14,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Total de Activo",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 10127247.29606,
+    "PeriodMonth": "12",
+    "valueMXN": 10817755.09556,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3624,8 +24,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Total de Activo",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 44658609.21485,
+    "PeriodMonth": "12",
+    "valueMXN": 45722125.33467,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3634,8 +34,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Total de Activo",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 2717664.1192,
+    "PeriodMonth": "12",
+    "valueMXN": 2872119.29439,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3644,8 +44,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Total de Activo",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1319904.31984,
+    "PeriodMonth": "12",
+    "valueMXN": 1426843.42928,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3654,8 +54,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Total de Activo",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 6483565.28599,
+    "PeriodMonth": "12",
+    "valueMXN": 6748043.59241,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3664,8 +64,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Total de Activo",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 666476.36502,
+    "PeriodMonth": "12",
+    "valueMXN": 722397.52036,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3674,8 +74,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Total de Activo",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 24799044.35151,
+    "PeriodMonth": "12",
+    "valueMXN": 26302420.04274,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3684,8 +84,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Total de Activo",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 17928973.28412,
+    "PeriodMonth": "12",
+    "valueMXN": 18684981.3502,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3694,8 +94,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Total de Activo",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 5159035.77952,
+    "PeriodMonth": "12",
+    "valueMXN": 5398187.27423,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3704,7 +104,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversiones Tercerizadas",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3714,7 +114,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversiones Tercerizadas",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3724,7 +124,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversiones Tercerizadas",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3734,7 +134,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversiones Tercerizadas",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3744,7 +144,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversiones Tercerizadas",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3754,7 +154,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversiones Tercerizadas",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3764,7 +164,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversiones Tercerizadas",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3774,7 +174,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversiones Tercerizadas",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3784,7 +184,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversiones Tercerizadas",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3794,7 +194,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversiones Tercerizadas",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3804,8 +204,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en títulos Fiduciarios",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1080492.34468,
+    "PeriodMonth": "12",
+    "valueMXN": 1153421.34352,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3814,8 +214,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en títulos Fiduciarios",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 599347.0,
+    "PeriodMonth": "12",
+    "valueMXN": 637238.76335,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3824,8 +224,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en títulos Fiduciarios",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 2399823.44818,
+    "PeriodMonth": "12",
+    "valueMXN": 2486309.51157,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3834,7 +234,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en títulos Fiduciarios",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 3833.84127,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3844,8 +244,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en títulos Fiduciarios",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 52559.6025,
+    "PeriodMonth": "12",
+    "valueMXN": 56723.18689,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3854,8 +254,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en títulos Fiduciarios",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 213630.49569,
+    "PeriodMonth": "12",
+    "valueMXN": 212399.72516,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3864,8 +264,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en títulos Fiduciarios",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 7946.51604,
+    "PeriodMonth": "12",
+    "valueMXN": 7500.96864,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3874,8 +274,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en títulos Fiduciarios",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 479077.11148,
+    "PeriodMonth": "12",
+    "valueMXN": 512120.32583,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3884,8 +284,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en títulos Fiduciarios",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 1039541.00082,
+    "PeriodMonth": "12",
+    "valueMXN": 1062911.34239,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3894,8 +294,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en títulos Fiduciarios",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 249435.5035,
+    "PeriodMonth": "12",
+    "valueMXN": 249944.72696,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3904,7 +304,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en Fondos Mutuos",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 367190.39554,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3914,7 +314,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en Fondos Mutuos",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3924,8 +324,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en Fondos Mutuos",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 718975.39561,
+    "PeriodMonth": "12",
+    "valueMXN": 891765.87764,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3934,7 +334,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en Fondos Mutuos",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3944,7 +344,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en Fondos Mutuos",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3954,7 +354,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en Fondos Mutuos",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3964,7 +364,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en Fondos Mutuos",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 0.0,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3974,7 +374,7 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en Fondos Mutuos",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 214598.95462,
     "FX_EOM": "",
     "valueUSD": ""
@@ -3984,8 +384,8 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en Fondos Mutuos",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
-    "valueMXN": 498173.88579,
+    "PeriodMonth": "12",
+    "valueMXN": 491382.04603,
     "FX_EOM": "",
     "valueUSD": ""
   },
@@ -3994,8 +394,3608 @@
     "Siefore": "Basica Inicial",
     "Concept": "Inversión en Fondos Mutuos",
     "PeriodYear": "2025",
-    "PeriodMonth": "10",
+    "PeriodMonth": "12",
     "valueMXN": 13072.69975,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "70-74",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 45091224.39743,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "70-74",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 200891735.77906,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "70-74",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 60841351.99044,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "70-74",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 42888142.75608,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "70-74",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 62933600.44603,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "70-74",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 74500403.70103,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "70-74",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 98305795.30587,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "70-74",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 290938761.78184,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "70-74",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 247512873.17301,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "70-74",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 269583265.87393,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "70-74",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "70-74",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "70-74",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "70-74",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "70-74",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "70-74",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 568227.62971,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "70-74",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "70-74",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "70-74",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "70-74",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5524770.48857,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "70-74",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3427884.0413,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "70-74",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 11126944.78926,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "70-74",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 8299050.98184,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "70-74",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1004319.44494,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "70-74",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5692620.78622,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "70-74",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5744815.59519,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "70-74",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 7054601.91614,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "70-74",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 15168294.9665,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "70-74",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 20009145.00269,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "70-74",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 26422765.20394,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "70-74",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1950696.88315,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "70-74",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "70-74",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1066640.38553,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "70-74",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "70-74",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "70-74",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "70-74",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "70-74",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3370743.54375,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "70-74",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5668219.98867,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "70-74",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 479347.36498,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "60-64",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 9663003.27207,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "60-64",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 41268776.0017,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "60-64",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 12006574.59317,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "60-64",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 12134384.35539,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "60-64",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 11987901.42875,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "60-64",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 43584722.44119,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "60-64",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 21623996.63527,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "60-64",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 60485077.99668,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "60-64",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 54185456.4742,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "60-64",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 68951141.33865,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "60-64",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "60-64",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "60-64",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "60-64",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "60-64",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "60-64",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 272219.683,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "60-64",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "60-64",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "60-64",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "60-64",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 116016.90122,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "60-64",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 58188.91961,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "60-64",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2008568.46029,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "60-64",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 701059.98412,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "60-64",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 7.77357,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "60-64",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 929907.89366,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "60-64",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2900037.17871,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "60-64",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2116288.86407,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "60-64",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1685757.29937,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "60-64",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3781361.19497,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "60-64",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 6272106.7587,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "60-64",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 497013.66288,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "60-64",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "60-64",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 133479.38667,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "60-64",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "60-64",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "60-64",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "60-64",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "60-64",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 630812.75528,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "60-64",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 698749.51454,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "60-64",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 41371.91543,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "Pensiones",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5564010.25276,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "Pensiones",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 14147637.84442,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "Pensiones",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3962619.84394,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "Pensiones",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5092023.3864,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "Pensiones",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3571312.92898,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "Pensiones",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 54966012.27635,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "Pensiones",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 7707823.03357,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "Pensiones",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 24409559.38999,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "Pensiones",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 13563311.37223,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "Pensiones",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 29634388.82713,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "Pensiones",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "Pensiones",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "Pensiones",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "Pensiones",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "Pensiones",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "Pensiones",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "Pensiones",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "Pensiones",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "Pensiones",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "Pensiones",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.54046,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 43129.79117,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 159121.3232,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2161.06366,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5.1391,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 722824.62722,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 61261.40982,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "Pensiones",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "90-94",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 55052423.54895,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "90-94",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 156703532.15747,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "90-94",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 107340164.22285,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "90-94",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 12200432.9893,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "90-94",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 23943917.32332,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "90-94",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 50959707.73525,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "90-94",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 14190168.21485,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "90-94",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 124650555.23407,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "90-94",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 126052655.60302,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "90-94",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 64734685.87385,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "90-94",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "90-94",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "90-94",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "90-94",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "90-94",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "90-94",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 547496.78477,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "90-94",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "90-94",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "90-94",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "90-94",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2603961.15865,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "90-94",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 4591140.41485,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "90-94",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 12965708.59806,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "90-94",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 12097887.20695,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "90-94",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 143139.98835,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "90-94",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1987448.25842,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "90-94",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3716788.4042,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "90-94",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 840030.83127,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "90-94",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 7203944.86546,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "90-94",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 11035848.43591,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "90-94",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 6466471.24307,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "90-94",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1774803.01041,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "90-94",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "90-94",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2112056.83232,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "90-94",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "90-94",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "90-94",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "90-94",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "90-94",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1433769.10362,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "90-94",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3632198.35607,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "90-94",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 190896.98138,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "65-69",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 30046654.51288,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "65-69",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 140633009.42418,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "65-69",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 41203415.68206,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "65-69",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 40665022.92241,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "65-69",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 45906904.87193,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "65-69",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 72547069.87462,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "65-69",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 82176979.31737,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "65-69",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 203757260.51104,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "65-69",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 190891924.91512,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "65-69",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 229041511.82151,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "65-69",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "65-69",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "65-69",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "65-69",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "65-69",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "65-69",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 619510.43054,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "65-69",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "65-69",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "65-69",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "65-69",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3666973.31916,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "65-69",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1835680.98383,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "65-69",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3736957.79379,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "65-69",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 4818183.70479,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "65-69",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 649967.30112,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "65-69",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2240830.98433,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "65-69",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 4673489.78871,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "65-69",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 4991231.75956,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "65-69",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5764265.0135,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "65-69",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 14485150.03082,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "65-69",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 20597400.65692,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "65-69",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1349390.85045,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "65-69",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "65-69",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 657001.70328,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "65-69",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "65-69",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "65-69",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "65-69",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "65-69",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2123778.78409,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "65-69",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3610347.69192,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "65-69",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 281230.55309,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "80-84",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 55717100.87541,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "80-84",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 235730231.67944,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "80-84",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 81143195.78748,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "80-84",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 27727959.49753,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "80-84",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 61825157.64179,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "80-84",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 78243187.4274,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "80-84",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 68559777.90038,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "80-84",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 265457527.36048,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "80-84",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 223627564.82331,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "80-84",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 225246018.39361,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "80-84",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "80-84",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "80-84",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "80-84",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "80-84",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "80-84",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 685204.30985,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "80-84",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "80-84",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "80-84",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "80-84",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 6377253.96321,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "80-84",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5072697.28507,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "80-84",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 17412536.77729,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "80-84",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 10355431.54801,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "80-84",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 618623.96536,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "80-84",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5803468.17363,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "80-84",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 6851018.82923,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "80-84",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5539085.04025,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "80-84",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 19595343.66247,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "80-84",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 21043895.27746,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "80-84",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 25458666.90941,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "80-84",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2199503.67412,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "80-84",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "80-84",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1549701.67178,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "80-84",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "80-84",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "80-84",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "80-84",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "80-84",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3507646.09987,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "80-84",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 6182804.48543,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "80-84",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 573630.73445,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "95-99",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 45250917.17039,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "95-99",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 68463470.11049,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "95-99",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 86514398.06086,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "95-99",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 7144210.0301,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "95-99",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 7378205.69642,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "95-99",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 19678626.79817,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "95-99",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 4149715.67119,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "95-99",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 75497040.89008,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "95-99",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 49192735.07214,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "95-99",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 18864596.35972,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "95-99",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "95-99",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "95-99",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "95-99",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "95-99",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "95-99",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "95-99",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "95-99",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "95-99",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "95-99",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "95-99",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3334567.66309,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "95-99",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5578465.43563,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "95-99",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 6272740.753,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "95-99",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 29702.98326,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "95-99",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 447799.15584,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "95-99",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 964131.08359,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "95-99",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 159738.16534,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "95-99",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2036389.35715,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "95-99",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3712432.66311,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "95-99",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1575237.0065,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "95-99",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1054916.87164,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "95-99",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "95-99",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1891413.70717,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "95-99",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "95-99",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "95-99",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "95-99",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "95-99",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 727114.88779,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "95-99",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1364932.57713,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "95-99",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 59058.72789,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "75-79",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 52899732.00207,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "75-79",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 216436394.93947,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "75-79",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 73516941.41157,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "75-79",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 35267636.36085,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "75-79",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 66139455.06718,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "75-79",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 65159842.10494,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "75-79",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 91815325.57444,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "75-79",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 301509672.34044,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "75-79",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 240120950.30691,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "75-79",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 247994462.76019,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "75-79",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "75-79",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "75-79",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "75-79",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "75-79",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "75-79",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 596974.18677,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "75-79",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "75-79",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "75-79",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "75-79",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5874524.97275,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "75-79",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 4807194.1244,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "75-79",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 16618343.59093,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "75-79",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 10025654.55743,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "75-79",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 890416.63731,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "75-79",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 6285141.35776,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "75-79",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5966105.89924,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "75-79",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 7203126.25306,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "75-79",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 21600868.17679,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "75-79",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 22522869.83934,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "75-79",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 27744741.32061,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "75-79",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2178236.57173,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "75-79",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "75-79",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1376809.01431,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "75-79",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "75-79",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "75-79",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "75-79",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "75-79",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3871102.60984,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "75-79",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 6175336.89063,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "75-79",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 556963.54833,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "85-89",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 55319324.8897,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "85-89",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 214980855.92364,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "85-89",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 94909785.65634,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "85-89",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 19568892.14399,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "85-89",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 44771996.84826,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "85-89",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 79272419.78835,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "85-89",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 35902892.30864,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "85-89",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 176189302.18892,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "85-89",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 188321798.58871,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "85-89",
+    "Concept": "Total de Activo",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 151516000.96604,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "85-89",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "85-89",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "85-89",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "85-89",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "85-89",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "85-89",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 747843.54679,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "85-89",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "85-89",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "85-89",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "85-89",
+    "Concept": "Inversiones Tercerizadas",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 4888151.95511,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "85-89",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 4804180.79497,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "85-89",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 17434530.8651,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "85-89",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 11804134.57572,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "85-89",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 337513.25254,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "85-89",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 3899187.46082,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "85-89",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 6485455.31199,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "85-89",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2584946.04967,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "85-89",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 11237249.83453,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "85-89",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 16942277.36197,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "85-89",
+    "Concept": "Inversión en títulos Fiduciarios",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 16318364.69566,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "85-89",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1973808.66783,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "85-89",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "85-89",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 1862857.64887,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "85-89",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "85-89",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "85-89",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "85-89",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 0.0,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "85-89",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 2180646.4688,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "85-89",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 5429087.44079,
+    "FX_EOM": "",
+    "valueUSD": ""
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "85-89",
+    "Concept": "Inversión en Fondos Mutuos",
+    "PeriodYear": "2025",
+    "PeriodMonth": "12",
+    "valueMXN": 416829.53059,
     "FX_EOM": "",
     "valueUSD": ""
   }
