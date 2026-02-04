@@ -106,34 +106,69 @@ def clean_value(val):
 def detect_units(df):
     """
     Detect the units used in the CONSAR Excel file.
-    
-    CONSAR specifies units in Row 7 (index 6), typically "Miles de Pesos" (thousands of pesos).
-    
+
+    Uses a multi-strategy approach:
+    1. Scan header cells (rows 5-9, cols A-E) for known unit labels
+    2. Recognize "Saldos al Cierre" as implying miles de pesos (CONSAR standard)
+    3. Infer from data value magnitudes as a final fallback
+
     Returns:
-        str: The units string (e.g., "Miles de Pesos")
+        str: "miles_de_pesos", "millones_de_pesos", "pesos", or "unknown"
     """
+    # Strategy 1: Search header cells for explicit unit labels
+    for row_idx in range(4, 9):
+        for col_idx in range(0, 5):
+            try:
+                cell_value = str(df.iloc[row_idx, col_idx]).strip().lower()
+                if "miles de pesos" in cell_value or "miles de peso" in cell_value:
+                    print(f"   Units: Miles de Pesos (row {row_idx+1}, col {col_idx})")
+                    return "miles_de_pesos"
+                elif "millones" in cell_value:
+                    print(f"   WARNING: Units are MILLONES (row {row_idx+1}, col {col_idx})")
+                    return "millones_de_pesos"
+            except (IndexError, ValueError):
+                continue
+
+    # Strategy 2: Recognize "Saldos al Cierre" as CONSAR standard (miles de pesos)
+    for row_idx in range(4, 9):
+        for col_idx in range(0, 5):
+            try:
+                cell_value = str(df.iloc[row_idx, col_idx]).strip().lower()
+                if "saldos al cierre" in cell_value:
+                    print(f"   Found 'Saldos al Cierre' (row {row_idx+1}, col {col_idx})")
+                    print(f"   Assuming miles de pesos (CONSAR standard format)")
+                    return "miles_de_pesos"
+            except (IndexError, ValueError):
+                continue
+
+    # Strategy 3: Magnitude-based inference from data values
     try:
-        # Row 7 (index 6) contains "Unidad: Miles de Pesos"
-        units_cell = str(df.iloc[6, 2]).strip()  # Column C (index 2)
-        
-        print(f"   📏 Detected units: {units_cell}")
-        
-        # Verify it's the expected format
-        if "Miles de Pesos" in units_cell or "miles de pesos" in units_cell.lower():
-            print(f"   ✅ Units confirmed: Thousands of Pesos (Miles de Pesos)")
-            return "Miles de Pesos"
-        elif "Millones" in units_cell or "millones" in units_cell.lower():
-            print(f"   ⚠️  WARNING: Units are in MILLIONS, not thousands!")
-            return "Millones de Pesos"
-        elif "Pesos" in units_cell:
-            print(f"   ⚠️  WARNING: Units appear to be in actual PESOS, not thousands!")
-            return "Pesos"
-        else:
-            print(f"   ⚠️  WARNING: Unknown units format: {units_cell}")
-            return "Unknown"
+        sample_values = []
+        for row_idx in range(10, min(30, len(df))):
+            for col_idx in range(4, min(10, len(df.columns))):
+                try:
+                    val = float(df.iloc[row_idx, col_idx])
+                    if val > 0:
+                        sample_values.append(val)
+                except (ValueError, TypeError):
+                    continue
+
+        if sample_values:
+            max_val = max(sample_values)
+            if max_val > 1_000_000_000:
+                print(f"   Magnitude inference: actual pesos (max={max_val:,.0f})")
+                return "pesos"
+            elif max_val > 100_000:
+                print(f"   Magnitude inference: miles de pesos (max={max_val:,.0f})")
+                return "miles_de_pesos"
+            elif max_val > 100:
+                print(f"   Magnitude inference: millones de pesos (max={max_val:,.0f})")
+                return "millones_de_pesos"
     except Exception as e:
-        print(f"   ⚠️  Could not detect units: {e}")
-        return "Unknown"
+        print(f"   Magnitude inference failed: {e}")
+
+    print(f"   WARNING: Could not determine units")
+    return "unknown"
 
 
 def parse_consar_xlsx(filepath, target_year, target_month):
@@ -151,9 +186,9 @@ def parse_consar_xlsx(filepath, target_year, target_month):
 
     # Detect and verify units
     units = detect_units(df)
-    if units not in ["Miles de Pesos"]:
-        print(f"   ⚠️  CRITICAL: Expected 'Miles de Pesos' but got '{units}'")
-        print(f"   ⚠️  Data may need different conversion factor!")
+    if units != "miles_de_pesos":
+        print(f"   CRITICAL: Expected 'miles_de_pesos' but detected '{units}'")
+        print(f"   Data may need conversion before integration!")
 
     # Determine Siefore Name from Header (Row 3, Column 2 -> index 2, 1)
     try:
@@ -222,6 +257,7 @@ def parse_consar_xlsx(filepath, target_year, target_month):
             "PeriodYear": target_year,
             "PeriodMonth": target_month,
             "valueMXN": value,
+            "units": "miles_de_pesos",
             "FX_EOM": "",
             "valueUSD": ""
         }
