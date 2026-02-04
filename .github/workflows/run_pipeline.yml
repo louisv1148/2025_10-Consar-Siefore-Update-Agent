@@ -30,7 +30,7 @@ jobs:
         with:
           repository: louisv1148/2025_10-Afore-JSON-cleanup
           path: 2025_10-Afore-JSON-cleanup
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -64,9 +64,12 @@ jobs:
         run: |
           git config --global user.name "Consar Bot"
           git config --global user.email "bot@consar-agent.com"
-          
+
+          # Set remote URL to use PAT_TOKEN
+          git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git
+
           # Add any new metadata or files in the agent repo
           git add latest_run_metadata.json consar_latest_month.json consar_latest_month_enriched.json approval_pending.json || true
-          
+
           # Commit if there are changes
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update metadata and latest month data" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update metadata and latest month data" && git push origin HEAD:master)
