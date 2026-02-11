@@ -47,8 +47,23 @@ def main():
     from verify_consistency import main as verify_consistency
     from send_review_email import main as send_email
 
-    # Steps 1-4 are required
-    run_step(1, 5, "Download Siefore reports from CONSAR", download_reports)
+    # Step 1: Check for new data and download
+    print("\n" + "=" * 80)
+    print("STEP 1/5: Download Siefore reports from CONSAR")
+    print("=" * 80)
+
+    has_new_data = download_reports()
+
+    if not has_new_data:
+        print("\n" + "=" * 80)
+        print("PIPELINE COMPLETE — No new data available")
+        print("=" * 80)
+        print(f"\nCompleted at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        return
+
+    print("\n✅ Download Siefore reports from CONSAR completed successfully")
+
+    # Steps 2-4 are required
     run_step(2, 5, "Extract latest month data", extract_latest)
     run_step(3, 5, "Enrich with FX and USD values", enrich_with_fx)
     run_step(4, 5, "Verify data consistency", verify_consistency)

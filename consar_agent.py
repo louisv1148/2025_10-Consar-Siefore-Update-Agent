@@ -254,17 +254,19 @@ class ConsarUpdateAgent:
         try:
             if self.check_for_update():
                 print("⬇️ Starting report downloads...")
-                
+
                 # Cleanup: Delete existing files to ensure clean state
                 print("🧹 Cleaning download directory...")
                 for f in os.listdir(DOWNLOAD_DIR):
                     os.remove(os.path.join(DOWNLOAD_DIR, f))
-                
+
                 self.download_reports()
                 print(f"\n✅ All reports downloaded to: {DOWNLOAD_DIR}")
                 self.convert_xls_to_xlsx()
+                return True
             else:
                 print("⏹️  No update needed. Exiting.")
+                return False
         finally:
             self.driver.quit()
 
@@ -272,7 +274,7 @@ class ConsarUpdateAgent:
 # === MAIN ENTRY ===
 def main():
     agent = ConsarUpdateAgent()
-    agent.run()
+    return agent.run()
 
 
 if __name__ == "__main__":
