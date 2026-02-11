@@ -18,11 +18,12 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 
-# === CONFIG ===
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-ENRICHED_JSON = os.path.join(SCRIPT_DIR, "consar_latest_month_enriched.json")
-APPROVAL_FILE = os.path.join(SCRIPT_DIR, "approval_pending.json")
-REPORT_JSON = os.path.join(SCRIPT_DIR, "consistency_report.json")
+from config import (
+    ENRICHED_JSON, APPROVAL_FILE, CONSISTENCY_REPORT, MONTHS_EN,
+)
+
+# Local alias
+REPORT_JSON = CONSISTENCY_REPORT
 
 # Email configuration (from environment variables)
 SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
@@ -102,14 +103,7 @@ def load_enriched_data():
 
 def create_email_body(stats):
     """Create HTML email body with data summary."""
-
-    month_names = {
-        "01": "January", "02": "February", "03": "March", "04": "April",
-        "05": "May", "06": "June", "07": "July", "08": "August",
-        "09": "September", "10": "October", "11": "November", "12": "December"
-    }
-
-    month_name = month_names.get(stats["period_month"], stats["period_month"])
+    month_name = MONTHS_EN.get(stats["period_month"], stats["period_month"])
 
     html = f"""
     <html>
@@ -237,12 +231,7 @@ def send_email(stats):
         print("   - SMTP_PORT (optional): SMTP port (default: 587)")
         return False
 
-    month_names = {
-        "01": "January", "02": "February", "03": "March", "04": "April",
-        "05": "May", "06": "June", "07": "July", "08": "August",
-        "09": "September", "10": "October", "11": "November", "12": "December"
-    }
-    month_name = month_names.get(stats["period_month"], stats["period_month"])
+    month_name = MONTHS_EN.get(stats["period_month"], stats["period_month"])
 
     subject = f"CONSAR Data Review: {month_name} {stats['period_year']} - {stats['total_records']} records"
 
@@ -285,35 +274,34 @@ def create_approval_file(stats):
 
 
 # === MAIN EXECUTION ===
-if __name__ == "__main__":
+def main():
     print("=" * 70)
     print("CONSAR Data Review Email")
     print("=" * 70)
 
-    try:
-        # Load and analyze data
-        print("\n📊 Analyzing enriched data...")
-        stats = load_enriched_data()
+    # Load and analyze data
+    print("\n📊 Analyzing enriched data...")
+    stats = load_enriched_data()
 
-        print(f"   Period: {stats['period_month']}/{stats['period_year']}")
-        print(f"   Records: {stats['total_records']:,}")
-        print(f"   Total USD: ${stats['total_usd']:,.0f}")
+    print(f"   Period: {stats['period_month']}/{stats['period_year']}")
+    print(f"   Records: {stats['total_records']:,}")
+    print(f"   Total USD: ${stats['total_usd']:,.0f}")
 
-        # Create approval file
-        create_approval_file(stats)
+    # Create approval file
+    create_approval_file(stats)
 
-        # Send email
-        email_sent = send_email(stats)
+    # Send email
+    email_sent = send_email(stats)
 
-        if email_sent:
-            print("\n✅ Review request sent!")
-            print(f"   Waiting for approval via approve_and_integrate.py")
-        else:
-            print("\n⚠️  Email not sent (not configured)")
-            print(f"   You can still approve via: python3 approve_and_integrate.py")
+    if email_sent:
+        print("\n✅ Review request sent!")
+        print(f"   Waiting for approval via approve_and_integrate.py")
+    else:
+        print("\n⚠️  Email not sent (not configured)")
+        print(f"   You can still approve via: python3 approve_and_integrate.py")
 
-        print("\n" + "=" * 70)
+    print("\n" + "=" * 70)
 
-    except Exception as e:
-        print(f"\n❌ Error: {e}")
-        raise
+
+if __name__ == "__main__":
+    main()

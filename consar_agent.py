@@ -20,29 +20,10 @@ from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 from dotenv import load_dotenv
 
-# === CONFIGURATION ===
-# === CONFIGURATION ===
-BASE_URL = "https://www.consar.gob.mx/gobmx/aplicativo/siset/Enlace.aspx?md=79"
-GITHUB_RELEASES_API = "https://api.github.com/repos/louisv1148/2025_10-Afore-JSON-cleanup/releases"
-
-# Use path relative to this script
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DOWNLOAD_DIR = os.path.join(SCRIPT_DIR, "downloaded_files")
-METADATA_FILE = os.path.join(SCRIPT_DIR, "latest_run_metadata.json")
-
-# Fund configurations with specific checkbox IDs
-URL_CONFIGS = {
-    "237": {"fund_name": "Pensiones", "checkboxes": ["51840", "52016", "52137", "52170"]},
-    "239": {"fund_name": "60-64", "checkboxes": ["53204", "53380", "53501", "53534"]},
-    "240": {"fund_name": "65-69", "checkboxes": ["53886", "54062", "54183", "54216"]},
-    "241": {"fund_name": "70-74", "checkboxes": ["54568", "54744", "54865", "54898"]},
-    "242": {"fund_name": "75-79", "checkboxes": ["55250", "55426", "55547", "55580"]},
-    "243": {"fund_name": "80-84", "checkboxes": ["55932", "56108", "56229", "56262"]},
-    "244": {"fund_name": "85-89", "checkboxes": ["56614", "56790", "56911", "56944"]},
-    "245": {"fund_name": "90-94", "checkboxes": ["57296", "57472", "57593", "57626"]},
-    "388": {"fund_name": "95-99", "checkboxes": ["73771", "73947", "74068", "74101"]},
-    "246": {"fund_name": "Basica Inicial", "checkboxes": ["57978", "58154", "58275", "58308"]}
-}
+from config import (
+    CONSAR_BASE_URL, GITHUB_RELEASES_API, FUND_CONFIGS,
+    DOWNLOAD_DIR, METADATA_FILE, MONTHS_ES_TO_INT, retry,
+)
 
 # Ensure download directory exists
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
@@ -74,15 +55,12 @@ class ConsarUpdateAgent:
 
     # --- Step 1: Check CONSAR for latest period
     def get_latest_period_from_consar(self):
-        response = requests.get(BASE_URL)
+        response = retry(
+            lambda: requests.get(CONSAR_BASE_URL, timeout=30),
+            max_attempts=3, delay=5, description="CONSAR fetch"
+        )
         soup = BeautifulSoup(response.text, "lxml")
         text = soup.get_text()
-
-        # Spanish month abbreviations to numbers
-        month_abbrev = {
-            'ene': 1, 'feb': 2, 'mar': 3, 'abr': 4, 'may': 5, 'jun': 6,
-            'jul': 7, 'ago': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dic': 12
-        }
 
         # Look for "Periodo Disponible" pattern like "Ene 19-Sep 25"
         # We want the END date (Sep 25), not the publication date
@@ -92,7 +70,7 @@ class ConsarUpdateAgent:
             end_month_abbr = match.group(3).lower()
             end_year_short = match.group(4)
 
-            month_num = month_abbrev.get(end_month_abbr)
+            month_num = MONTHS_ES_TO_INT.get(end_month_abbr)
             if month_num:
                 # Convert 2-digit year to 4-digit (assuming 20xx)
                 year = 2000 + int(end_year_short)
@@ -115,8 +93,13 @@ class ConsarUpdateAgent:
         headers = {"Accept": "application/vnd.github+json"}
         if GITHUB_TOKEN:
             headers["Authorization"] = f"token {GITHUB_TOKEN}"
-        r = requests.get(GITHUB_RELEASES_API, headers=headers)
-        r.raise_for_status()
+
+        def _fetch():
+            resp = requests.get(GITHUB_RELEASES_API, headers=headers, timeout=30)
+            resp.raise_for_status()
+            return resp
+
+        r = retry(_fetch, max_attempts=3, delay=5, description="GitHub API")
         releases = r.json()
         if not releases:
             raise ValueError("No releases found in the GitHub repository.")
@@ -169,8 +152,8 @@ class ConsarUpdateAgent:
 
     # --- Step 4: Download reports for all funds
     def download_reports(self):
-        total = len(URL_CONFIGS)
-        for idx, (cd, config) in enumerate(URL_CONFIGS.items(), start=1):
+        total = len(FUND_CONFIGS)
+        for idx, (cd, config) in enumerate(FUND_CONFIGS.items(), start=1):
             fund_name = config["fund_name"]
             url = f"https://www.consar.gob.mx/gobmx/aplicativo/siset/Series.aspx?cd={cd}&cdAlt=False"
 
@@ -287,6 +270,10 @@ class ConsarUpdateAgent:
 
 
 # === MAIN ENTRY ===
-if __name__ == "__main__":
+def main():
     agent = ConsarUpdateAgent()
     agent.run()
+
+
+if __name__ == "__main__":
+    main()

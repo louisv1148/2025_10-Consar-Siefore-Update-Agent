@@ -16,17 +16,8 @@ import shutil
 from datetime import datetime
 from dotenv import load_dotenv
 
-# === CONFIG ===
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-APPROVAL_FILE = os.path.join(SCRIPT_DIR, "approval_pending.json")
-ENRICHED_JSON = os.path.join(SCRIPT_DIR, "consar_latest_month_enriched.json")
-BACKUP_DIR = os.path.join(SCRIPT_DIR, "backups")
-
-# If running manually, we default to local path.
-# If running in CI via approve_release.yml, we must provide MASTER_DB_PATH env var.
-HISTORICAL_DB = os.environ.get(
-    "MASTER_DB_PATH",
-    os.path.join(SCRIPT_DIR, "../2025_10 Afore JSON cleanup/consar_siefores_with_usd.json")
+from config import (
+    APPROVAL_FILE, ENRICHED_JSON, BACKUP_DIR, HISTORICAL_DB, MONTHS_EN,
 )
 
 load_dotenv()
@@ -155,12 +146,7 @@ def prompt_github_release(approval):
     print("NEXT STEP: CREATE GITHUB RELEASE")
     print("=" * 70)
 
-    month_names = {
-        "01": "January", "02": "February", "03": "March", "04": "April",
-        "05": "May", "06": "June", "07": "July", "08": "August",
-        "09": "September", "10": "October", "11": "November", "12": "December"
-    }
-    month_name = month_names.get(approval["period_month"], approval["period_month"])
+    month_name = MONTHS_EN.get(approval["period_month"], approval["period_month"])
 
     tag = f"v{approval['period_year']}.{approval['period_month']}"
 

@@ -21,16 +21,14 @@ import subprocess
 from datetime import datetime
 from dotenv import load_dotenv
 
-# === CONFIG ===
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-APPROVAL_FILE = os.path.join(SCRIPT_DIR, "approval_pending.json")
-# Allow overriding database path via env var (for CI/CD)
-DATABASE_FILE = os.environ.get(
-    "MASTER_DB_PATH",
-    os.path.join(SCRIPT_DIR, "../2025_10 Afore JSON cleanup/consar_siefores_with_usd.json")
+from config import (
+    APPROVAL_FILE, HISTORICAL_DB, ENRICHED_JSON, SCRIPT_DIR,
+    REPO_OWNER, HISTORY_REPO_NAME, MONTHS_EN,
 )
-REPO_OWNER = "louisv1148"
-REPO_NAME = "2025_10-Afore-JSON-cleanup"
+
+# Local aliases
+DATABASE_FILE = HISTORICAL_DB
+REPO_NAME = HISTORY_REPO_NAME
 
 load_dotenv()
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
@@ -213,25 +211,13 @@ def upload_release_asset(release_id, file_path, asset_name=None):
 
 def generate_release_notes(approval):
     """Generate release notes body."""
-
-    month_names = {
-        "01": "January", "02": "February", "03": "March", "04": "April",
-        "05": "May", "06": "June", "07": "July", "08": "August",
-        "09": "September", "10": "October", "11": "November", "12": "December"
-    }
-
-    month_name = month_names.get(approval["period_month"], approval["period_month"])
+    month_name = MONTHS_EN.get(approval["period_month"], approval["period_month"])
 
     # Get file size
     file_size_mb = os.path.getsize(DATABASE_FILE) / (1024 * 1024)
 
     # Load enriched data for statistics
-    # Note: approval['enriched_file'] might contain an absolute path from a different machine.
-    # We always expect the enriched file to be in the same directory as this script in the CI env.
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    enriched_json_path = os.path.join(script_dir, "consar_latest_month_enriched.json")
-    
-    with open(enriched_json_path, "r") as f:
+    with open(ENRICHED_JSON, "r") as f:
         enriched_data = json.load(f)
 
     total_mxn = sum(r.get("valueMXN", 0) for r in enriched_data)
@@ -308,12 +294,7 @@ if __name__ == "__main__":
         period_month = approval["period_month"]
         period_year = approval["period_year"]
 
-        month_names = {
-            "01": "January", "02": "February", "03": "March", "04": "April",
-            "05": "May", "06": "June", "07": "July", "08": "August",
-            "09": "September", "10": "October", "11": "November", "12": "December"
-        }
-        month_name = month_names.get(period_month, period_month)
+        month_name = MONTHS_EN.get(period_month, period_month)
 
         # Generate release information
         tag = f"v{period_year}.{period_month}"

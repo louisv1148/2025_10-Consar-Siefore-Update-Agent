@@ -21,12 +21,11 @@ import os
 from datetime import datetime
 from dotenv import load_dotenv
 
-# === CONFIG ===
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-SOURCE_JSON = os.path.join(SCRIPT_DIR, "consar_latest_month.json")
-OUTPUT_JSON = os.path.join(SCRIPT_DIR, "consar_latest_month_enriched.json")
-BANXICO_API_URL = "https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF43718/datos"
+from config import LATEST_MONTH_JSON, ENRICHED_JSON, BANXICO_API_URL, retry
 
+# Local aliases
+SOURCE_JSON = LATEST_MONTH_JSON
+OUTPUT_JSON = ENRICHED_JSON
 
 # Load environment variables
 load_dotenv()
@@ -55,19 +54,18 @@ def fetch_banxico_fx(year, month):
         print("   ⚠️  No BANXICO_TOKEN found in environment")
         print("      The API may work without a token for recent data")
 
-    try:
-        response = requests.get(BANXICO_API_URL, headers=headers, timeout=30)
-        response.raise_for_status()
-    except requests.exceptions.HTTPError as e:
-        if response.status_code == 401:
+    def _fetch():
+        resp = requests.get(BANXICO_API_URL, headers=headers, timeout=30)
+        if resp.status_code == 401:
             raise ValueError(
                 "Authentication failed. Banxico API requires a token.\n"
                 "Get your token from: https://www.banxico.org.mx/SieAPIRest/service/v1/token\n"
                 "Then set it: export BANXICO_TOKEN='your-token'"
             )
-        raise ValueError(f"Error fetching FX data: {e}")
-    except requests.exceptions.RequestException as e:
-        raise ValueError(f"Error fetching FX data: {e}")
+        resp.raise_for_status()
+        return resp
+
+    response = retry(_fetch, max_attempts=3, delay=5, description="Banxico API")
 
     try:
         data = response.json()
@@ -192,51 +190,46 @@ def display_sample_records(data, count=5):
 
 
 # === MAIN EXECUTION ===
-if __name__ == "__main__":
+def main():
     print("=" * 80)
     print("CONSAR Latest Month Enrichment Pipeline")
     print("=" * 80)
     print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
 
-    try:
-        # Load the source JSON to get the period
-        print(f"📂 Loading source data: {SOURCE_JSON}")
-        with open(SOURCE_JSON, "r", encoding="utf-8") as f:
-            source_data = json.load(f)
+    # Load the source JSON to get the period
+    print(f"📂 Loading source data: {SOURCE_JSON}")
+    with open(SOURCE_JSON, "r", encoding="utf-8") as f:
+        source_data = json.load(f)
 
-        if not source_data:
-            raise ValueError("Source JSON file is empty")
+    if not source_data:
+        raise ValueError("Source JSON file is empty")
 
-        # Get the period from the first record
-        first_record = source_data[0]
-        target_year = first_record["PeriodYear"]
-        target_month = first_record["PeriodMonth"]
+    # Get the period from the first record
+    first_record = source_data[0]
+    target_year = first_record["PeriodYear"]
+    target_month = first_record["PeriodMonth"]
 
-        print(f"   ✓ Target period: {target_month}/{target_year}")
-        print(f"   ✓ Records: {len(source_data)}")
+    print(f"   ✓ Target period: {target_month}/{target_year}")
+    print(f"   ✓ Records: {len(source_data)}")
 
-        # Fetch FX rate from Banxico
-        fx_rate = fetch_banxico_fx(target_year, target_month)
+    # Fetch FX rate from Banxico
+    fx_rate = fetch_banxico_fx(target_year, target_month)
 
-        # Enrich data with FX and USD values
-        enriched_data = enrich_with_fx_and_usd(SOURCE_JSON, fx_rate)
+    # Enrich data with FX and USD values
+    enriched_data = enrich_with_fx_and_usd(SOURCE_JSON, fx_rate)
 
-        # Save enriched data
-        save_enriched_data(enriched_data, OUTPUT_JSON)
+    # Save enriched data
+    save_enriched_data(enriched_data, OUTPUT_JSON)
 
-        # Display sample records
-        display_sample_records(enriched_data)
+    # Display sample records
+    display_sample_records(enriched_data)
 
-        print(f"\n✅ Enrichment complete!")
-        print(f"   Input:  {SOURCE_JSON}")
-        print(f"   Output: {OUTPUT_JSON}")
-        print(f"\nCompleted at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        print("=" * 80)
+    print(f"\n✅ Enrichment complete!")
+    print(f"   Input:  {SOURCE_JSON}")
+    print(f"   Output: {OUTPUT_JSON}")
+    print(f"\nCompleted at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("=" * 80)
 
-    except FileNotFoundError as e:
-        print(f"\n❌ Error: {e}")
-        print(f"   Make sure to run extract_latest_month.py first!")
-        exit(1)
-    except Exception as e:
-        print(f"\n❌ Error: {e}")
-        raise
+
+if __name__ == "__main__":
+    main()

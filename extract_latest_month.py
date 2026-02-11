@@ -14,55 +14,24 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import requests
 
-# === CONFIG ===
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-SOURCE_FOLDER = os.path.join(SCRIPT_DIR, "downloaded_files")
-OUTPUT_JSON = os.path.join(SCRIPT_DIR, "consar_latest_month.json")
-METADATA_FILE = os.path.join(SCRIPT_DIR, "latest_run_metadata.json")
-BASE_URL = "https://www.consar.gob.mx/gobmx/aplicativo/siset/Enlace.aspx?md=79"
+from config import (
+    CONSAR_BASE_URL, VALID_AFORES, MONTHS_ES, MONTHS_NUM_TO_ES,
+    DOWNLOAD_DIR, LATEST_MONTH_JSON, METADATA_FILE, MONTHS_ES_TO_INT, retry,
+)
 
-# Valid AFORE names to filter out junk rows
-VALID_AFORES = {
-    "Azteca", "Banamex", "Coppel", "Inbursa", "Invercap",
-    "PensionISSSTE", "Principal", "Profuturo", "SURA", "XXI Banorte"
-}
-
-# Spanish month mapping
-MONTHS_ES = {
-    "ene": "01", "feb": "02", "mar": "03", "abr": "04",
-    "may": "05", "jun": "06", "jul": "07", "ago": "08",
-    "sep": "09", "oct": "10", "nov": "11", "dic": "12"
-}
-
-# Reverse mapping for display
-MONTHS_NUM_TO_ES = {v: k for k, v in MONTHS_ES.items()}
-
-# Filename to Siefore name mapping (based on download order from URL_CONFIGS)
-FILENAME_TO_SIEFORE = {
-    "Reporte.xlsx": "Pensiones",
-    "Reporte (1).xlsx": "60-64",
-    "Reporte (2).xlsx": "65-69",
-    "Reporte (3).xlsx": "70-74",
-    "Reporte (4).xlsx": "75-79",
-    "Reporte (5).xlsx": "80-84",
-    "Reporte (6).xlsx": "85-89",
-    "Reporte (7).xlsx": "90-94",
-    "Reporte (8).xlsx": "95-99",
-    "Reporte (9).xlsx": "Basica Inicial"
-}
+# Local aliases for backward compat within this file
+SOURCE_FOLDER = DOWNLOAD_DIR
+OUTPUT_JSON = LATEST_MONTH_JSON
 
 
 def get_latest_period_from_consar():
     """Get the latest available period from CONSAR website."""
-    response = requests.get(BASE_URL)
+    response = retry(
+        lambda: requests.get(CONSAR_BASE_URL, timeout=30),
+        max_attempts=3, delay=5, description="CONSAR fetch"
+    )
     soup = BeautifulSoup(response.text, "lxml")
     text = soup.get_text()
-
-    # Spanish month abbreviations to numbers
-    month_abbrev = {
-        'ene': 1, 'feb': 2, 'mar': 3, 'abr': 4, 'may': 5, 'jun': 6,
-        'jul': 7, 'ago': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dic': 12
-    }
 
     # Look for "Periodo Disponible" pattern like "Ene 19-Sep 25"
     match = re.search(r'Periodo Disponible[^\n]*?(\w{3})\s+(\d{2})-(\w{3})\s+(\d{2})', text, re.IGNORECASE)
@@ -70,10 +39,9 @@ def get_latest_period_from_consar():
         end_month_abbr = match.group(3).lower()
         end_year_short = match.group(4)
 
-        month_num = month_abbrev.get(end_month_abbr)
+        month_num = MONTHS_ES_TO_INT.get(end_month_abbr)
         if month_num:
             year = 2000 + int(end_year_short)
-            # Return as strings for comparison with Excel data
             return str(year), f"{month_num:02d}"
 
     raise ValueError("Could not find 'Periodo Disponible' on the page.")
@@ -268,34 +236,29 @@ def parse_consar_xlsx(filepath, target_year, target_month):
 
 
 # === MAIN EXECUTION ===
-if __name__ == "__main__":
+def main():
     print("🚀 Starting latest month data extraction...\n")
 
     # Get the latest period from metadata (preferred) or CONSAR (fallback)
-    try:
-        if os.path.exists(METADATA_FILE):
-            with open(METADATA_FILE, "r") as f:
-                meta = json.load(f)
-                target_year = meta["year"]
-                target_month = meta["month"]
-                print(f"📄 Loaded target period from metadata: {target_month}/{target_year}")
-        else:
-            print("⚠️  Metadata file not found, fetching from CONSAR...")
-            target_year, target_month = get_latest_period_from_consar()
-            
-        month_name = MONTHS_NUM_TO_ES.get(target_month, target_month)
-        print(f"📅 Target period: {month_name.upper()}-{target_year}\n")
-    except Exception as e:
-        print(f"❌ Error getting latest period: {e}")
-        exit(1)
+    if os.path.exists(METADATA_FILE):
+        with open(METADATA_FILE, "r") as f:
+            meta = json.load(f)
+            target_year = meta["year"]
+            target_month = meta["month"]
+            print(f"📄 Loaded target period from metadata: {target_month}/{target_year}")
+    else:
+        print("⚠️  Metadata file not found, fetching from CONSAR...")
+        target_year, target_month = get_latest_period_from_consar()
+
+    month_name = MONTHS_NUM_TO_ES.get(target_month, target_month)
+    print(f"📅 Target period: {month_name.upper()}-{target_year}\n")
 
     # Process all XLSX files (skip temp files that start with ~$)
     all_records = []
     xlsx_files = [f for f in os.listdir(SOURCE_FOLDER) if f.endswith(".xlsx") and not f.startswith("~$")]
 
     if not xlsx_files:
-        print(f"❌ No XLSX files found in {SOURCE_FOLDER}")
-        exit(1)
+        raise FileNotFoundError(f"No XLSX files found in {SOURCE_FOLDER}")
 
     print(f"Found {len(xlsx_files)} XLSX files to process\n")
 
@@ -311,3 +274,7 @@ if __name__ == "__main__":
     print(f"\n💾 Saved {len(all_records)} records to {OUTPUT_JSON}")
     print(f"📊 Period: {month_name.upper()}-{target_year}")
     print(f"📁 Output: {OUTPUT_JSON}")
+
+
+if __name__ == "__main__":
+    main()
