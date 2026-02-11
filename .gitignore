@@ -45,3 +45,6 @@ downloaded_files/
 
 # Logs
 *.log
+
+# Local backups (large JSON files)
+backups/
