@@ -77,16 +77,13 @@ jobs:
           git config --global user.name "Consar Bot"
           git config --global user.email "bot@consar-agent.com"
 
-          # Set remote URL to use PAT_TOKEN
-          git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git
-
           # Update the approval file status
           git add approval_pending.json
           git diff --staged --quiet || git commit -m "chore: Mark data as approved"
 
-          # Rebase on remote then push
-          git pull --rebase origin master
-          git push origin HEAD:master
+          # Push using PAT directly (same pattern as history repo)
+          git pull --rebase https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git master
+          git push https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git HEAD:master
 
       - name: Trigger Analysis Pipeline
         run: |
