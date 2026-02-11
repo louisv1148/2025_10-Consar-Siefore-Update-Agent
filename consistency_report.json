@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "Record Count",
+      "latest": 400,
+      "prior": 400,
+      "status": "pass"
+    },
+    {
+      "name": "Afores Integrity",
+      "status": "pass",
+      "message": "Afores match perfectly"
+    },
+    {
+      "name": "Siefores Integrity",
+      "status": "pass",
+      "message": "Siefores match perfectly"
+    },
+    {
+      "name": "Concepts Integrity",
+      "status": "pass",
+      "message": "Concepts match perfectly"
+    },
+    {
+      "name": "Total Assets (USD)",
+      "prior": 437006990.1712205,
+      "latest": 444436041.24428934,
+      "change_pct": 1.699984494563379,
+      "status": "pass"
+    }
+  ]
+}
