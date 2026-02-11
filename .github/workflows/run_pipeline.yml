@@ -74,5 +74,6 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: Update metadata and latest month data"
 
           # Push using PAT directly (checkout action's credential helper overrides remote set-url)
-          git pull --rebase https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git master
-          git push https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git HEAD:master
+          BRANCH="${{ github.ref_name }}"
+          git pull --rebase https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git "$BRANCH"
+          git push https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git "HEAD:$BRANCH"
