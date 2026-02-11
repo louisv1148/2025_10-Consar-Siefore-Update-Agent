@@ -7,7 +7,8 @@ Compares December 2024 vs October 2025
 import json
 from collections import defaultdict
 
-DB_PATH = "/Users/lvc/AI Scripts/2025_10 Afore JSON cleanup/consar_siefores_with_usd.json"
+from config import HISTORICAL_DB
+DB_PATH = HISTORICAL_DB
 
 def load_data():
     with open(DB_PATH, 'r', encoding='utf-8') as f:
@@ -60,10 +61,10 @@ def print_comparison_table(title, dec_data, oct_data):
     total_oct_usd = 0
 
     for afore in all_afores:
-        dec_mxn = dec_data.get(afore, {}).get('MXN', 0) / 1000  # Convert to millions
+        dec_mxn = dec_data.get(afore, {}).get('MXN', 0) / 1000  # miles de pesos → millions
         oct_mxn = oct_data.get(afore, {}).get('MXN', 0) / 1000
-        dec_usd = dec_data.get(afore, {}).get('USD', 0) / 1_000_000  # Convert to millions
-        oct_usd = oct_data.get(afore, {}).get('USD', 0) / 1_000_000
+        dec_usd = dec_data.get(afore, {}).get('USD', 0) / 1000  # thousands USD → millions
+        oct_usd = oct_data.get(afore, {}).get('USD', 0) / 1000
 
         growth_mxn = oct_mxn - dec_mxn
         growth_usd = oct_usd - dec_usd
@@ -124,9 +125,9 @@ def print_combined_table(title, mandates_dec, mandates_oct, mutual_dec, mutual_o
         oct_mxn = (mandates_oct.get(afore, {}).get('MXN', 0) +
                    mutual_oct.get(afore, {}).get('MXN', 0)) / 1000
         dec_usd = (mandates_dec.get(afore, {}).get('USD', 0) +
-                   mutual_dec.get(afore, {}).get('USD', 0)) / 1_000_000
+                   mutual_dec.get(afore, {}).get('USD', 0)) / 1000
         oct_usd = (mandates_oct.get(afore, {}).get('USD', 0) +
-                   mutual_oct.get(afore, {}).get('USD', 0)) / 1_000_000
+                   mutual_oct.get(afore, {}).get('USD', 0)) / 1000
 
         growth_mxn = oct_mxn - dec_mxn
         growth_usd = oct_usd - dec_usd
@@ -178,13 +179,13 @@ def print_growth_table(title, dec_data, oct_data, nov_data, currency='USD', show
 
     for afore in all_afores:
         if currency == 'MXN':
-            oct_val = oct_data.get(afore, {}).get('MXN', 0) / 1000  # millions
+            oct_val = oct_data.get(afore, {}).get('MXN', 0) / 1000  # miles de pesos → millions
             dec_val = dec_data.get(afore, {}).get('MXN', 0) / 1000
             nov_val = nov_data.get(afore, {}).get('MXN', 0) / 1000
         else:  # USD
-            oct_val = oct_data.get(afore, {}).get('USD', 0) / 1_000_000  # millions
-            dec_val = dec_data.get(afore, {}).get('USD', 0) / 1_000_000
-            nov_val = nov_data.get(afore, {}).get('USD', 0) / 1_000_000
+            oct_val = oct_data.get(afore, {}).get('USD', 0) / 1000  # thousands USD → millions
+            dec_val = dec_data.get(afore, {}).get('USD', 0) / 1000
+            nov_val = nov_data.get(afore, {}).get('USD', 0) / 1000
 
         growth_10mo = oct_val - dec_val
         growth_12mo = oct_val - nov_val
