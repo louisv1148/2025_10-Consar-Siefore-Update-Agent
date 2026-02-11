@@ -68,8 +68,11 @@ jobs:
           # Set remote URL to use PAT_TOKEN
           git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git
 
+          # Pull latest remote changes before pushing (handles manual commits between runs)
+          git pull --rebase origin master
+
           # Add any new metadata or files in the agent repo
-          git add latest_run_metadata.json consar_latest_month.json consar_latest_month_enriched.json approval_pending.json || true
+          git add latest_run_metadata.json consar_latest_month.json consar_latest_month_enriched.json approval_pending.json consistency_report.json || true
 
           # Commit if there are changes
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update metadata and latest month data" && git push origin HEAD:master)
