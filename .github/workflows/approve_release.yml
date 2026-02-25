@@ -39,7 +39,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas requests python-dotenv
+          pip install -r requirements.txt
 
       - name: Run Approval & Integration
         run: |
@@ -86,11 +86,33 @@ jobs:
           git pull --rebase https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git "$BRANCH"
           git push https://${{ secrets.PAT_TOKEN }}@github.com/louisv1148/2025_10-Consar-Siefore-Update-Agent.git "HEAD:$BRANCH"
 
-      - name: Trigger Analysis Pipeline
+      - name: Generate Reports
         run: |
-          curl -X POST \
-            -H "Accept: application/vnd.github.v3+json" \
-            -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
-            https://api.github.com/repos/louisv1148/Consar-AUM-analysis/dispatches \
-            -d '{"event_type": "consar-data-updated"}'
-          echo "✅ Analysis pipeline triggered!"
+          export PYTHONPATH=$PYTHONPATH:.
+          export MASTER_DB_PATH=$(pwd)/2025_10-Afore-JSON-cleanup/consar_siefores_with_usd.json
+          python -m reports.generate_reports
+
+      - name: Send Report Email
+        if: always() && hashFiles('output/*.pdf') != ''
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.SENDER_EMAIL }}
+          password: ${{ secrets.SENDER_PASSWORD }}
+          subject: Afore Investment Analysis Reports (Automated)
+          body: |
+            Attached are the latest Afore Investment Analysis reports.
+
+            Generated automatically from updated CONSAR data.
+          to: ${{ secrets.RECIPIENT_EMAILS }}
+          from: Afore Analysis Bot <${{ secrets.SENDER_EMAIL }}>
+          secure: true
+          attachments: output/*.pdf
+
+      - name: Upload Report Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: afore-reports
+          path: output/

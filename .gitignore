@@ -48,3 +48,6 @@ downloaded_files/
 
 # Local backups (large JSON files)
 backups/
+
+# Generated reports
+output/
