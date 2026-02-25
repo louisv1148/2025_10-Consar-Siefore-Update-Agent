@@ -132,11 +132,12 @@ def enrich_with_fx_and_usd(json_path, fx_rate):
 
     print(f"   ✓ Enriched {enriched_count} records with USD values")
 
-    # Calculate statistics
-    total_mxn = sum(r.get("valueMXN", 0) for r in data)
-    total_usd = sum(r.get("valueUSD", 0) for r in data)
+    # Calculate statistics (Total de Activo only to avoid double-counting)
+    total_activo = [r for r in data if r.get("Concept") == "Total de Activo"]
+    total_mxn = sum(r.get("valueMXN", 0) for r in total_activo)
+    total_usd = sum(r.get("valueUSD", 0) for r in total_activo)
 
-    print(f"\n   Summary:")
+    print(f"\n   Summary (Total de Activo):")
     print(f"   • Total MXN: ${total_mxn:,.0f}")
     print(f"   • FX Rate: {fx_rate:.4f} MXN/USD")
     print(f"   • Total USD: ${total_usd:,.0f}")

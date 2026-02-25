@@ -227,7 +227,7 @@ class AUMCalculator:
         currency: str = 'USD'
     ) -> List[Dict]:
         """
-        Calculate year-to-date growth (from January to current month).
+        Calculate year-to-date growth (from Dec prior year to current month).
 
         Args:
             current_year: Current year
@@ -238,7 +238,8 @@ class AUMCalculator:
         Returns:
             List of growth results
         """
-        start_data = self.aggregate_by_afore(current_year, "01", concept_key)
+        prior_year = str(int(current_year) - 1)
+        start_data = self.aggregate_by_afore(prior_year, "12", concept_key)
         end_data = self.aggregate_by_afore(current_year, current_month, concept_key)
 
         return self.calculate_growth(start_data, end_data, currency)
@@ -310,8 +311,9 @@ class AUMCalculator:
             end_data_func = lambda y, m: self.aggregate_by_afore(y, m, concept_key)
 
         for currency in ['USD', 'MXN']:
-            # YTD
-            start_data = end_data_func(year, "01")
+            # YTD (compare against December of prior year)
+            prior_year = str(int(year) - 1)
+            start_data = end_data_func(prior_year, "12")
             end_data = end_data_func(year, month)
             results['ytd'][currency] = self.calculate_growth(start_data, end_data, currency)
 

@@ -220,8 +220,9 @@ def generate_release_notes(approval):
     with open(ENRICHED_JSON, "r") as f:
         enriched_data = json.load(f)
 
-    total_mxn = sum(r.get("valueMXN", 0) for r in enriched_data)
-    total_usd = sum(r.get("valueUSD", 0) for r in enriched_data)
+    total_activo = [r for r in enriched_data if r.get("Concept") == "Total de Activo"]
+    total_mxn = sum(r.get("valueMXN", 0) for r in total_activo)
+    total_usd = sum(r.get("valueUSD", 0) for r in total_activo)
     fx_rate = enriched_data[0].get("FX_EOM", 0)
 
     afores = sorted(set(r["Afore"] for r in enriched_data))

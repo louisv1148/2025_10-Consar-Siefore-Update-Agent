@@ -46,10 +46,11 @@ def load_enriched_data():
     period_month = data[0]["PeriodMonth"]
     fx_rate = data[0]["FX_EOM"]
 
-    # Calculate statistics
+    # Calculate statistics (Total de Activo only to avoid double-counting sub-concepts)
     total_records = len(data)
-    total_mxn = sum(r.get("valueMXN", 0) for r in data)
-    total_usd = sum(r.get("valueUSD", 0) for r in data)
+    total_activo = [r for r in data if r.get("Concept") == "Total de Activo"]
+    total_mxn = sum(r.get("valueMXN", 0) for r in total_activo)
+    total_usd = sum(r.get("valueUSD", 0) for r in total_activo)
 
     # Get unique values
     afores = sorted(set(r["Afore"] for r in data))
