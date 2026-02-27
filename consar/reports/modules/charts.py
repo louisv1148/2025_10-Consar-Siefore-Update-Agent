@@ -36,7 +36,7 @@ class ChartGenerator:
     def create_growth_bar_chart(
         growth_data: List[Dict],
         title: str = "AUM Growth Analysis",
-        show_percentage: bool = False, # Kept for API compatibility, but we will show both
+        show_percentage: bool = False,
         output_path: Optional[str] = None,
         figsize: tuple = (14, 8)
     ) -> plt.Figure:
@@ -52,13 +52,9 @@ class ChartGenerator:
         pct_values = [d['growth_percent'] for d in afore_data]
         currency = afore_data[0]['currency']
 
-        # Determine y-axis values (using absolute for bar height usually makes sense to see scale)
-        # But if the growth varies wildly, maybe percentage is better?
-        # The user asked for "bar graphs for YTD growth should have the amount in millions with the percentage below"
-        # I'll use Absolute Amount for the bar height, as it represents the real magnitude.
         values = abs_values
         ylabel = f"Growth ({currency} millions)"
-        
+
         # Create figure
         fig, ax = plt.subplots(figsize=figsize)
 
@@ -77,13 +73,12 @@ class ChartGenerator:
         # Add value labels on bars
         for bar, val, pct in zip(bars, abs_values, pct_values):
             height = bar.get_height()
-            
+
             # Format: $123M\n(5.4%)
             abs_str = f'${val:,.1f}M' if currency == 'USD' else f'${val:,.0f}M'
             label = f"{abs_str}\n({pct:.1f}%)"
-            
+
             # Position label
-            # If positive, put above. If negative, put below.
             offset = (max(values) - min(values)) * 0.02
             if height >= 0:
                 label_y = height + offset
@@ -91,7 +86,7 @@ class ChartGenerator:
             else:
                 label_y = height - offset
                 va = 'top'
-                
+
             ax.text(bar.get_x() + bar.get_width()/2., label_y,
                    label,
                    ha='center', va=va,
@@ -107,9 +102,8 @@ class ChartGenerator:
         # Add grid
         ax.grid(True, alpha=0.3, axis='y')
         ax.set_axisbelow(True)
-        
+
         # Adjust y-limit to fit labels
-        # Get current limits
         ymin, ymax = ax.get_ylim()
         range_y = ymax - ymin
         ax.set_ylim(ymin - range_y * 0.1, ymax + range_y * 0.1)
@@ -135,20 +129,6 @@ class ChartGenerator:
     ) -> plt.Figure:
         """
         Create a bar chart comparing multiple time periods for a single Afore.
-
-        Args:
-            afore_name: Name of the Afore
-            ytd_growth: YTD growth value
-            one_year_growth: 1-year growth value
-            three_year_growth: 3-year growth value (optional)
-            five_year_growth: 5-year growth value (optional)
-            show_percentage: If True, values are percentages
-            currency: Currency type
-            output_path: If provided, save chart to this path
-            figsize: Figure size tuple
-
-        Returns:
-            matplotlib Figure object
         """
         periods = ['YTD']
         values = [ytd_growth]
@@ -218,15 +198,6 @@ class ChartGenerator:
     ) -> plt.Figure:
         """
         Create a grouped bar chart showing market totals across all periods.
-
-        Args:
-            all_metrics: Dict from AUMCalculator.get_all_growth_metrics()
-            currency: Currency to display
-            output_path: If provided, save chart to this path
-            figsize: Figure size tuple
-
-        Returns:
-            matplotlib Figure object
         """
         periods = ['YTD', '1 Year', '3 Year', '5 Year']
         period_keys = ['ytd', '1_year', '3_year', '5_year']
@@ -301,15 +272,6 @@ class ChartGenerator:
     ) -> plt.Figure:
         """
         Create a grouped bar chart comparing multiple concepts side by side.
-
-        Args:
-            growth_data_dict: Dict mapping concept names to growth data lists
-            title: Chart title
-            output_path: If provided, save chart to this path
-            figsize: Figure size tuple
-
-        Returns:
-            matplotlib Figure object
         """
         # Get Afore names (excluding total)
         first_concept = list(growth_data_dict.values())[0]

@@ -7,7 +7,7 @@ Calculates AUM growth metrics for different time periods and currencies.
 from typing import Dict, List, Optional
 from collections import defaultdict
 from datetime import datetime
-from .data_loader import AforeDataLoader
+from .data import AforeDataLoader
 
 
 class AUMCalculator:

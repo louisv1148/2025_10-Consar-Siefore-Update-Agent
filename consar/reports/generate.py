@@ -1,12 +1,12 @@
 import os
 from datetime import datetime
 
-from config import HISTORICAL_DB
-from reports.modules.data_loader import AforeDataLoader
-from reports.modules.aum_calculator import AUMCalculator
-from reports.modules.chart_generator import ChartGenerator
-from reports.modules.pdf_generator import AforePDFReport
-from reports.modules.summary_generator import SummaryGenerator
+from consar.config import HISTORICAL_DB
+from consar.reports.modules.data import AforeDataLoader
+from consar.reports.modules.calculator import AUMCalculator
+from consar.reports.modules.charts import ChartGenerator
+from consar.reports.modules.pdf import AforePDFReport
+from consar.reports.modules.summary import SummaryGenerator
 
 
 def format_currency(value, currency):

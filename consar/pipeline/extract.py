@@ -14,12 +14,12 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import requests
 
-from config import (
+from consar.config import (
     CONSAR_BASE_URL, VALID_AFORES, MONTHS_ES, MONTHS_NUM_TO_ES,
     DOWNLOAD_DIR, LATEST_MONTH_JSON, METADATA_FILE, MONTHS_ES_TO_INT, retry,
 )
 
-# Local aliases for backward compat within this file
+# Local aliases
 SOURCE_FOLDER = DOWNLOAD_DIR
 OUTPUT_JSON = LATEST_MONTH_JSON
 

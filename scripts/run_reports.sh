@@ -1,11 +1,11 @@
 #!/bin/bash
 # One-command local report generation
-# Usage: ./run_reports.sh
+# Usage: ./scripts/run_reports.sh
 
 set -e
 
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-HISTORY_DIR="$SCRIPT_DIR/../2025_10 Afore JSON cleanup"
+SCRIPT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+HISTORY_DIR="$SCRIPT_DIR/../consar-siefore-history"
 
 echo "=== Pulling latest code ==="
 cd "$SCRIPT_DIR"
@@ -19,7 +19,7 @@ git pull
 echo ""
 echo "=== Generating reports ==="
 cd "$SCRIPT_DIR"
-PYTHONPATH=. python3 -m reports.generate_reports
+python -m consar.reports.generate
 
 echo ""
 echo "=== Done ==="

@@ -1,28 +1,30 @@
 """
-Shared Configuration for CONSAR Siefore Update Agent
-=====================================================
-Central place for all constants, paths, and mappings used across scripts.
+Shared Configuration for CONSAR Siefore Agent
+===============================================
+Central place for all constants, paths, and mappings used across modules.
 """
 
 import os
 import time
 
 # === BASE PATHS ===
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DOWNLOAD_DIR = os.path.join(SCRIPT_DIR, "downloaded_files")
-BACKUP_DIR = os.path.join(SCRIPT_DIR, "backups")
+# PACKAGE_DIR is the consar/ package directory; PROJECT_DIR is the repo root
+PACKAGE_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.dirname(PACKAGE_DIR)
+DOWNLOAD_DIR = os.path.join(PROJECT_DIR, "downloaded_files")
+BACKUP_DIR = os.path.join(PROJECT_DIR, "backups")
 
 # === OUTPUT FILE PATHS ===
-METADATA_FILE = os.path.join(SCRIPT_DIR, "latest_run_metadata.json")
-LATEST_MONTH_JSON = os.path.join(SCRIPT_DIR, "consar_latest_month.json")
-ENRICHED_JSON = os.path.join(SCRIPT_DIR, "consar_latest_month_enriched.json")
-APPROVAL_FILE = os.path.join(SCRIPT_DIR, "approval_pending.json")
-CONSISTENCY_REPORT = os.path.join(SCRIPT_DIR, "consistency_report.json")
+METADATA_FILE = os.path.join(PROJECT_DIR, "latest_run_metadata.json")
+LATEST_MONTH_JSON = os.path.join(PROJECT_DIR, "consar_latest_month.json")
+ENRICHED_JSON = os.path.join(PROJECT_DIR, "consar_latest_month_enriched.json")
+APPROVAL_FILE = os.path.join(PROJECT_DIR, "approval_pending.json")
+CONSISTENCY_REPORT = os.path.join(PROJECT_DIR, "consistency_report.json")
 
 # Master DB: override via env var in CI/CD, default to local sibling directory
 HISTORICAL_DB = os.environ.get(
     "MASTER_DB_PATH",
-    os.path.join(SCRIPT_DIR, "../2025_10 Afore JSON cleanup/consar_siefores_with_usd.json")
+    os.path.join(PROJECT_DIR, "../consar-siefore-history/consar_siefores_with_usd.json")
 )
 
 # === EXTERNAL URLS ===
@@ -31,8 +33,8 @@ BANXICO_API_URL = "https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF437
 
 # === REPOSITORY INFO ===
 REPO_OWNER = "louisv1148"
-HISTORY_REPO_NAME = "2025_10-Afore-JSON-cleanup"
-AGENT_REPO_NAME = "2025_10-Consar-Siefore-Update-Agent"
+HISTORY_REPO_NAME = "consar-siefore-history"
+AGENT_REPO_NAME = "consar-siefore-agent"
 GITHUB_RELEASES_API = f"https://api.github.com/repos/{REPO_OWNER}/{HISTORY_REPO_NAME}/releases"
 
 # === MONTH MAPPINGS ===

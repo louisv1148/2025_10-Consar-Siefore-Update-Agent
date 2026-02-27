@@ -1,10 +1,16 @@
+"""
+Verify Consistency
+------------------
+Compares new enriched data against the historical database to
+check record counts, entity completeness, and asset magnitude.
+"""
 
 import json
 import pandas as pd
 import sys
 import os
 
-from config import ENRICHED_JSON, HISTORICAL_DB, CONSISTENCY_REPORT
+from consar.config import ENRICHED_JSON, HISTORICAL_DB, CONSISTENCY_REPORT
 
 # Paths
 LATEST_FILE = ENRICHED_JSON

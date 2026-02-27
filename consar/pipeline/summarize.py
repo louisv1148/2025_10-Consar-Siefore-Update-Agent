@@ -6,7 +6,7 @@ Reads pipeline output files and prints markdown to stdout.
 
 import json
 import os
-from config import (
+from consar.config import (
     APPROVAL_FILE, ENRICHED_JSON, CONSISTENCY_REPORT,
     METADATA_FILE, MONTHS_EN
 )
@@ -33,8 +33,7 @@ def main():
     # Overview
     print("### Overview")
     print(f"- **Period:** {month_name} {period_year}")
-    print(f"- **New Records:** {approval.get('new_records_added', '?'):,}")
-    print(f"- **Total DB Records:** {approval.get('total_records_in_db', '?'):,}")
+    print(f"- **Total Records:** {approval.get('total_records', '?'):,}")
     print(f"- **Status:** `{approval.get('status', '?')}`")
     print()
 

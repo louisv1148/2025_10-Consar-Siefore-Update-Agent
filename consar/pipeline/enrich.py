@@ -3,12 +3,12 @@
 Complete Enrichment Pipeline for Latest Month
 ==============================================
 This script:
-1. Fetches FX data from Banxico for September 2025
+1. Fetches FX data from Banxico for the target period
 2. Enriches the latest month JSON with FX_EOM and valueUSD
 3. Saves the enriched data ready for database integration
 
 Inputs:
-- consar_latest_month.json: Latest month data (from extract_latest_month.py)
+- consar_latest_month.json: Latest month data (from extract step)
 
 Outputs:
 - consar_latest_month_enriched.json: Complete data with FX and USD values
@@ -21,7 +21,7 @@ import os
 from datetime import datetime
 from dotenv import load_dotenv
 
-from config import LATEST_MONTH_JSON, ENRICHED_JSON, BANXICO_API_URL, retry
+from consar.config import LATEST_MONTH_JSON, ENRICHED_JSON, BANXICO_API_URL, retry
 
 # Local aliases
 SOURCE_JSON = LATEST_MONTH_JSON
@@ -146,13 +146,7 @@ def enrich_with_fx_and_usd(json_path, fx_rate):
 
 
 def save_enriched_data(data, output_path):
-    """
-    Save enriched data to JSON file.
-
-    Args:
-        data: List of enriched records
-        output_path: Path to save the file
-    """
+    """Save enriched data to JSON file."""
     print(f"\n💾 Saving enriched data...")
 
     with open(output_path, "w", encoding="utf-8") as f:
@@ -165,13 +159,7 @@ def save_enriched_data(data, output_path):
 
 
 def display_sample_records(data, count=5):
-    """
-    Display sample records to verify enrichment.
-
-    Args:
-        data: List of enriched records
-        count: Number of records to display
-    """
+    """Display sample records to verify enrichment."""
     print(f"\n📋 Sample records (first {count}):")
     print("-" * 120)
     print(f"{'Afore':<15} {'Siefore':<12} {'Concept':<35} {'MXN':>15} {'FX':>8} {'USD':>15}")

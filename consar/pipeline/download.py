@@ -20,7 +20,7 @@ from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 from dotenv import load_dotenv
 
-from config import (
+from consar.config import (
     CONSAR_BASE_URL, GITHUB_RELEASES_API, FUND_CONFIGS,
     DOWNLOAD_DIR, METADATA_FILE, MONTHS_ES_TO_INT, retry,
 )
@@ -132,7 +132,7 @@ class ConsarUpdateAgent:
     # --- Step 3: Compare dates
     def check_for_update(self):
         consar_date = self.get_latest_period_from_consar()
-        
+
         # Save metadata for downstream scripts to reuse (avoid double scraping)
         import json
         metadata = {
@@ -141,7 +141,7 @@ class ConsarUpdateAgent:
         }
         with open(METADATA_FILE, "w") as f:
             json.dump(metadata, f)
-            
+
         github_date = self.get_latest_github_release_date()
         if consar_date > github_date:
             print("🟢 New data available on CONSAR!")
@@ -191,23 +191,23 @@ class ConsarUpdateAgent:
                 ))
                 export_button.click()
                 print(f"   ✓ Export initiated for {fund_name}")
-                
+
                 # Smart Wait: Wait for .xls file to appear and stabilize
                 # Timeout after 120 seconds
                 wait_start = time.time()
                 download_success = False
-                
+
                 while time.time() - wait_start < 120:
                     files = [f for f in os.listdir(DOWNLOAD_DIR) if f.endswith(".xls")]
                     # We expect one new file. Check if any file is growing or recent.
                     # Since we clean the dir before running, we can just check if count == idx
                     if len(files) >= idx:
                         # Found the new file, give it a moment to finish writing
-                        time.sleep(2) 
+                        time.sleep(2)
                         download_success = True
                         break
                     time.sleep(1)
-                
+
                 if download_success:
                     print(f"   ✅ Download completed")
                 else:

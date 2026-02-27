@@ -12,7 +12,7 @@ class AforePDFReport(FPDF):
         self.set_auto_page_break(auto=True, margin=15)
         # Add a page to start
         self.add_page()
-    
+
     def set_header_title(self, title):
         """Update the title used in the header for subsequent pages."""
         self.current_header_title = title
@@ -23,7 +23,7 @@ class AforePDFReport(FPDF):
         self.cell(0, 10, self.current_header_title, align='C')
 
         self.ln(10)
-        
+
         self.set_font('helvetica', 'I', 10)
         self.cell(0, 5, f'Currency: {self.currency} | Generated: {datetime.date.today()}', align='C')
         self.ln(10)
@@ -51,7 +51,7 @@ class AforePDFReport(FPDF):
         Renders a table using fpdf2's built-in table context manager.
         """
         self.set_font('helvetica', '', 9)
-        
+
         with self.table(
             col_widths=col_widths,
             headings_style=FontFace(emphasis="BOLD", color=255, fill_color=(50, 50, 100)),
@@ -62,31 +62,30 @@ class AforePDFReport(FPDF):
             row = table.row()
             for h in header:
                 row.cell(h)
-            
+
             for row_data in data:
                 row = table.row()
-                
+
                 # Check if this is the "Market Total" row to bold it
                 is_market_total = "MARKET TOTAL" in str(row_data[0]).upper()
-                
+
                 for item in row_data:
                     item_str = str(item)
-                    
+
                     # Style settings
                     style = FontFace()
                     if is_market_total:
                         style.emphasis = "BOLD"
                         style.fill_color = (240, 240, 240)
-                        
-                    # Check for negative numbers (starting with - or ( and ending with ))
-                    # Simple check: if it contains a negative sign and is a number-like string
+
+                    # Check for negative numbers
                     clean_str = item_str.replace('$', '').replace('%', '').replace(',', '').replace('M', '')
                     try:
                         if float(clean_str) < 0:
                             style.color = (200, 0, 0) # Red
                     except ValueError:
                         pass
-                        
+
                     row.cell(item_str, style=style)
         self.ln(5)
 

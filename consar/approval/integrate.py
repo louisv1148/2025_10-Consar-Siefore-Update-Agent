@@ -2,12 +2,9 @@
 """
 Approve and Integrate Data
 ===========================
-After reviewing the emailed summary, run this script to:
+After reviewing the pipeline summary, run this script to:
 1. Mark the data as approved
 2. Integrate into historical database
-3. Create a new GitHub release with the updated data
-
-This script should be run AFTER reviewing the email summary.
 """
 
 import json
@@ -16,7 +13,7 @@ import shutil
 from datetime import datetime
 from dotenv import load_dotenv
 
-from config import (
+from consar.config import (
     APPROVAL_FILE, ENRICHED_JSON, BACKUP_DIR, HISTORICAL_DB, MONTHS_EN,
 )
 
@@ -28,7 +25,7 @@ def check_approval_pending():
     """Check if there's a pending approval."""
     if not os.path.exists(APPROVAL_FILE):
         print("❌ No pending approval found")
-        print("   Run send_review_email.py first")
+        print("   Run the pipeline first: python -m consar.pipeline.run")
         return None
 
     with open(APPROVAL_FILE, "r") as f:
@@ -153,17 +150,13 @@ def prompt_github_release(approval):
     print(f"\nTo create a GitHub release for this data:")
     print(f"\n1. Tag: {tag}")
     print(f"2. Title: {month_name} {approval['period_year']} - Siefore Data Update")
-    print(f"3. Description:")
-    print(f"   Updated CONSAR Siefore data for {month_name} {approval['period_year']}")
-    print(f"   - {approval['total_records']:,} new records")
-    print(f"   - FX enriched and USD values calculated")
-    print(f"\n4. Run the GitHub release script:")
-    print(f"   python3 create_github_release.py")
+    print(f"\n3. Run the GitHub release script:")
+    print(f"   python -m consar.approval.release")
     print("\n" + "=" * 70)
 
 
 # === MAIN EXECUTION ===
-if __name__ == "__main__":
+def main():
     print("=" * 70)
     print("APPROVE AND INTEGRATE DATA")
     print("=" * 70)
@@ -206,3 +199,7 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n❌ Error: {e}")
         raise
+
+
+if __name__ == "__main__":
+    main()

@@ -154,16 +154,6 @@ class TableFormatter:
     ) -> pd.DataFrame:
         """
         Create a comparison table showing multiple time periods side by side.
-
-        Args:
-            ytd_data: YTD growth data
-            one_year_data: 1-year growth data
-            three_year_data: 3-year growth data (optional)
-            five_year_data: 5-year growth data (optional)
-            title: Table title
-
-        Returns:
-            pandas DataFrame with multi-period comparison
         """
         # Extract afore names (excluding total)
         afores = [d['afore'] for d in ytd_data[:-1]]
@@ -223,11 +213,6 @@ class TableFormatter:
     ):
         """
         Export multiple DataFrames to Excel with formatting.
-
-        Args:
-            dataframes: Dict mapping sheet names to DataFrames
-            output_path: Output Excel file path
-            format_numbers: Whether to apply number formatting
         """
         with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
             for sheet_name, df in dataframes.items():
@@ -255,12 +240,6 @@ class TableFormatter:
     def create_summary_table(all_metrics: Dict) -> pd.DataFrame:
         """
         Create a high-level summary table from all metrics.
-
-        Args:
-            all_metrics: Dict from AUMCalculator.get_all_growth_metrics()
-
-        Returns:
-            Summary DataFrame
         """
         summary = []
 

@@ -1,4 +1,4 @@
-# CONSAR Siefore Update Agent — Monthly Workflow
+# CONSAR Siefore Agent — Monthly Workflow
 
 ## What happens automatically
 
@@ -37,8 +37,8 @@ Go to the completed "Approve Latest Data" run > Artifacts > `afore-reports`
 
 **Option B — Generate locally:**
 ```bash
-cd "2025_10 Consar Siefore Update Agent"
-./run_reports.sh
+cd consar-siefore-agent
+./scripts/run_reports.sh
 ```
 This pulls both repos and generates PDFs in `output/`.
 
@@ -61,21 +61,18 @@ Check the logs. Common causes:
 ## Architecture
 
 Two repos:
-- **Agent repo** (`2025_10-Consar-Siefore-Update-Agent`): pipeline, approval, report generation — everything
-- **History repo** (`2025_10-Afore-JSON-cleanup`): stores the historical database, releases
+- **Agent repo** (`consar-siefore-agent`): pipeline, approval, report generation — everything
+- **History repo** (`consar-siefore-history`): stores the historical database, releases
 
-The `Consar-AUM-analysis` repo is deprecated — report generation now lives in the agent repo under `reports/`.
+## Key modules
 
-## Key files
-
-| File | Purpose |
-|------|---------|
-| `run_complete_pipeline.py` | Orchestrates download, extract, enrich, verify |
-| `approve_and_integrate.py` | Merges new data into historical DB |
-| `reports/generate_reports.py` | Generates PDF reports |
-| `generate_pipeline_summary.py` | Creates the GitHub Actions summary |
-| `run_reports.sh` | One-command local report generation |
-| `config.py` | Central configuration (paths, repo names, etc.) |
+| Module | Purpose |
+|--------|---------|
+| `consar.pipeline.run` | Orchestrates download, extract, enrich, verify |
+| `consar.approval.integrate` | Merges new data into historical DB |
+| `consar.reports.generate` | Generates PDF reports |
+| `consar.pipeline.summarize` | Creates the GitHub Actions summary |
+| `consar.config` | Central configuration (paths, repo names, etc.) |
 
 ## Database units
 
